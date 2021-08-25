@@ -1,0 +1,3 @@
+execute as @a[team=teamgame,tag=!darmor] at @s unless entity @s[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{teamarmor:1}}]}] run function game:team/get_leggings
+execute as @a[team=teamgame,tag=!darmor] at @s unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{teamarmor:1}}]}] run function game:team/get_boots
+execute as @a[team=teamgame,tag=!darmor] at @s unless entity @s[nbt={Inventory:[{Slot:8b,tag:{teamarmor:1,is_concrete:1}}]}] run function game:team/get_concrete

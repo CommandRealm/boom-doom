@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=25,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"--------------Diamond Armor--------------","bold":true,"color":"aqua","extra":[{"text":"\nEquip to get a full set of diamond armor until you’re damaged.","color":"aqua","bold":false}]}
+execute as @a[scores={showdetails=25,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

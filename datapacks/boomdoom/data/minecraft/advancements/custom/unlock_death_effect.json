@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:bone"},"title":{"text":"Exclusive Death Effect","color":"red","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Complete all advancements within this row to unlock.","color":"#cc9294","bold":false}},"parent":"custom/kill_horse","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

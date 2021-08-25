@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=9,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"--------------------Blaze--------------------","bold":true,"color":"#ff5400","extra":[{"text":"\nBlazes ignite the ground as they explode.","color":"dark_red","bold":false}]}
+execute as @a[scores={showdetails=9,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

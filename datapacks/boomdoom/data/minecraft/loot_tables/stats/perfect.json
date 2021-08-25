@@ -1,0 +1,6 @@
+{ "type":"minecraft:generic", "pools" : [ { "rolls":1, "entries":[ { "type": "minecraft:item", "functions":
+[ { "function": "minecraft:set_name", "entity": "this", "name": 
+[{"text":"You have had ","color":"yellow","italic":false},{"score":{"objective":"perfect","name":"@s"},"bold":true,"italic":false,"color":"gold"},{"text":" perfect rounds.","color":"yellow"}] 
+},{ "function": "minecraft:set_lore", "entity": "this", "lore": 
+[{"text":"A perfect round is where you didn't take","color":"gold","italic":false},{"text":"any damage in the match.","color":"gold","italic":false}] 
+} ], "name": "minecraft:prismarine_crystals" } ] } ] }

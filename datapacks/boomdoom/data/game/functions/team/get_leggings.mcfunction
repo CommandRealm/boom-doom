@@ -1,0 +1,4 @@
+kill @e[type=item,nbt={Item:{tag:{teamarmor:1}}}]
+clear @s leather_leggings
+replaceitem entity @s[team=teamgame,tag=!darmor,tag=joinred] armor.legs leather_leggings{Unbreakable:1b,display:{color:16449548,Name:"{\"text\":\"Team Armor\",\"color\":\"light_purple\",\"italic\":false}"},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I; 10, 10, 10, 10]}],HideFlags:63,teamarmor:1}
+replaceitem entity @s[team=teamgame,tag=!darmor,tag=joinblue] armor.legs leather_leggings{Unbreakable:1b,display:{color:10454,Name:"{\"text\":\"Team Armor\",\"color\":\"light_purple\",\"italic\":false}"},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I; 10, 10, 10, 10]}],HideFlags:63,teamarmor:1}

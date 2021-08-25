@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=36,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"---------------Get a Better View---------------","bold":true,"color":"green","extra":[{"text":"\nDrop to switch to spectator mode for 10 seconds.","color":"green","bold":false}]}
+execute as @a[scores={showdetails=36,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

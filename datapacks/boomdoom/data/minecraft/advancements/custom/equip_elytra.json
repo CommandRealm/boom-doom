@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:elytra"},"title":{"text":"Becoming a Dragon","color":"light_purple","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Equip an elytra.","color":"#ffaaf8","bold":false}},"parent":"custom/ride_strider","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

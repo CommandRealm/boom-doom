@@ -1,0 +1,1 @@
+execute if entity @a[tag=lfcosmetic] at @e[tag=getcosmetic,sort=random,limit=1] run setblock ~ ~3 ~ redstone_block

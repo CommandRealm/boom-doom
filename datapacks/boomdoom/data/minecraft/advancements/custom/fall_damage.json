@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:leather_boots"},"title":{"text":"Ouch!","color":"dark_gray","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Take fall damage.","color":"gray","bold":false}},"parent":"custom/get_killed","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

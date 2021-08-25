@@ -1,0 +1,2 @@
+execute as @a[tag=gotcosmetic,tag=!generatingcosmetic] at @s unless entity @a[tag=generatingcosmetic] at @e[tag=EorL,sort=random,limit=1] run setblock ~ ~3 ~ redstone_block
+execute as @a[tag=gotcosmetic,tag=!generatingcosmetic] at @s unless entity @a[tag=generatingcosmetic] run tag @s add generatingcosmetic

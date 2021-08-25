@@ -1,0 +1,18 @@
+clear @a[team=redlobby] red_dye{TeamSwap:1}
+clear @a[team=bluelobby] blue_dye{TeamSwap:1}
+team join lobby @a[team=bluelobby,tag=!player,tag=!test,tag=!help,tag=!bld,tag=!srbld,tag=!prg,tag=!srprg,tag=!lead]
+team join test @a[team=bluelobby,tag=test,tag=!player]
+team join help @a[team=bluelobby,tag=help,tag=!player]
+team join bld @a[team=bluelobby,tag=bld,tag=!player]
+team join srbld @a[team=bluelobby,tag=srbld,tag=!player]
+team join prg @a[team=bluelobby,tag=prg,tag=!player]
+team join srprg @a[team=bluelobby,tag=srprg,tag=!player]
+team join lead @a[team=bluelobby,tag=lead,tag=!player]
+team join lobby @a[team=redlobby,tag=!player,tag=!test,tag=!help,tag=!bld,tag=!srbld,tag=!prg,tag=!srprg,tag=!lead]
+team join test @a[team=redlobby,tag=test,tag=!player]
+team join help @a[team=redlobby,tag=help,tag=!player]
+team join bld @a[team=redlobby,tag=bld,tag=!player]
+team join srbld @a[team=redlobby,tag=srbld,tag=!player]
+team join prg @a[team=redlobby,tag=prg,tag=!player]
+team join srprg @a[team=redlobby,tag=srprg,tag=!player]
+team join lead @a[team=redlobby,tag=lead,tag=!player]

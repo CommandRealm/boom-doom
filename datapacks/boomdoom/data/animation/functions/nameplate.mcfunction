@@ -1,0 +1,2 @@
+summon area_effect_cloud 2 70 10 {CustomName:"{\"text\":\"Join Blue Team\",\"color\":\"dark_blue\",\"bold\":true}",CustomNameVisible:1,Duration:1000000,Tags:["teamdie"]}
+summon area_effect_cloud 12 70 10 {CustomName:"{\"text\":\"Join Red Team\",\"color\":\"dark_red\",\"bold\":true}",CustomNameVisible:1,Duration:1000000,Tags:["teamdie"]}

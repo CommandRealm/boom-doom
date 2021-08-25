@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=14,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"------------------Mooshroom------------------","bold":true,"color":"red","extra":[{"text":"\nMooshrooms are the enhanced version of cows. They inflict blindness and nausea on any nearby players as they explode.","color":"dark_red","bold":false}]}
+execute as @a[scores={showdetails=14,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

@@ -1,0 +1,1 @@
+execute as @e[tag=getitemid] at @e[tag=itemselection,sort=random,limit=1] run setblock ~ ~3 ~ redstone_block

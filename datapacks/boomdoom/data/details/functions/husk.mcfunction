@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=17,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"--------------------Husk--------------------","bold":true,"color":"yellow","extra":[{"text":"\nHusks are the enhanced version of zombies. They attack players before exploding.","color":"gold","bold":false}]}
+execute as @a[scores={showdetails=17,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

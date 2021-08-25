@@ -1,0 +1,9 @@
+execute as @a[tag=playing] at @s if score cooldown endcool matches 100 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.5
+execute as @a[tag=playing] at @s if score cooldown endcool matches 80 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.5
+execute as @a[tag=playing] at @s if score cooldown endcool matches 60 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.55
+execute as @a[tag=playing] at @s if score cooldown endcool matches 40 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.55
+execute as @a[tag=playing] at @s if score cooldown endcool matches 20 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.55
+execute as @a[tag=playing] at @s if score cooldown endcool matches 10 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.55
+execute as @a[tag=playing] at @s if score cooldown endcool matches 5 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.75
+execute as @a[tag=playing] at @s if score cooldown endcool matches 3 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 1.85
+execute as @a[tag=playing] at @s if score cooldown endcool matches 1 run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 1 2

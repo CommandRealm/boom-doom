@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:black_concrete"},"title":{"text":"Long Way Down","color":"dark_gray","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Fall into a pit.","color":"gray","bold":false}},"parent":"custom/step_on_landmine","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

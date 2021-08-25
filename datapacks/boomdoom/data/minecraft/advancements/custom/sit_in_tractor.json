@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:dark_prismarine"},"title":{"text":"Ain't It a Beaut!","color":"#009566","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Sit in the tractor in the lobby.","color":"#24eaab","bold":false}},"parent":"custom/complete_tutorial","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

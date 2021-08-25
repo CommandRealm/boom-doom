@@ -1,0 +1,2 @@
+execute as @e[tag=enhanced,type=fox] at @s as @a[tag=playing,gamemode=!spectator,distance=..2,nbt={Inventory:[{tag:{clearable:1}}]}] at @s run function game:snow_fox/clear_item
+execute as @e[tag=enhanced,type=fox] at @s as @e[type=item,nbt={Item:{tag:{clearable:1}}}] at @s run function game:snow_fox/kill_item

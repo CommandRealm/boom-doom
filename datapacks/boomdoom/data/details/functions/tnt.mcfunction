@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=11,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"---------------------TNT---------------------","bold":true,"color":"dark_red","extra":[{"text":"\nTNT appears commonly with a default explosion.","color":"red","bold":false}]}
+execute as @a[scores={showdetails=11,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

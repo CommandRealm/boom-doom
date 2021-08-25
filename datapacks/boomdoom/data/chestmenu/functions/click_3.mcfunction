@@ -1,0 +1,1 @@
+execute if entity @s[scores={menu=8,click_3=1..}] run function chestmenu:start_kb_items

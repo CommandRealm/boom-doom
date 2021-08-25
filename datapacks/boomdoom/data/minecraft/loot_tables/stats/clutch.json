@@ -1,0 +1,6 @@
+{ "type":"minecraft:generic", "pools" : [ { "rolls":1, "entries":[ { "type": "minecraft:item", "functions":
+[ { "function": "minecraft:set_name", "entity": "this", "name": 
+[{"text":"You have had ","color":"light_purple","italic":false},{"score":{"objective":"clutch","name":"@s"},"bold":true,"italic":false,"color":"dark_purple"},{"text":" clutch rounds.","color":"light_purple"}] 
+},{ "function": "minecraft:set_lore", "entity": "this", "lore": 
+[{"text":"A clutch round is a round you won ","color":"red","italic":false},{"text":"with half a heart remaining.","color":"red","italic":false}] 
+} ], "name": "minecraft:chorus_fruit" } ] } ] }

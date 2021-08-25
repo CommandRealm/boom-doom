@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:cobweb"},"title":{"text":"Sticky Situation","color":"white","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Die while stuck inside a cobweb.","color":"gray","bold":false}},"parent":"custom/fall_damage","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

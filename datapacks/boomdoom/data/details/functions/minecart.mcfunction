@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=22,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"-------------Minecart of Protection-------------","bold":true,"color":"dark_blue","extra":[{"text":"\nRide to become invulnerable for up to 10 seconds.","color":"blue","bold":false}]}
+execute as @a[scores={showdetails=22,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

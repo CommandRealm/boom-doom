@@ -1,0 +1,2 @@
+execute as @a[scores={intro_text=0}] at @s unless entity @s[x=8,y=66,z=10,distance=..1] run function active:intro_text/start_intro_text
+execute if entity @a[scores={intro_text=1..}] run function active:intro_text/active_intro_text

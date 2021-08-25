@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:netherite_ingot"},"title":{"text":"This Isn't How You Play!","color":"#a55d5d","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Use The Ravager's PVP Rune.","color":"#c68768","bold":false}},"parent":"custom/enhancement_scepter","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

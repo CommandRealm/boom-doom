@@ -1,0 +1,4 @@
+##scoreboard players add @e[type=zombie_pigman,tag=mob,nbt={HurtTime:10s},tag=!noreproduction] zphurt 1
+##execute as @e[scores={zphurt=1..},type=zombie_pigman,tag=enhanced] at @s run summon zombie_pigman ~ 66.05 ~ {NoGravity:1,Tags:["mob","ER2","enhanced"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"MHF_PigZombie",Anger:100000000s}}]}
+##execute as @e[tag=mob,tag=enhanced,type=zombie_pigman] at @s run scoreboard players operation @e[type=zombie_pigman,tag=mob,distance=..2] explode = @s explode
+##scoreboard players set @e[scores={zphurt=1..},type=zombie_pigman] zphurt 0

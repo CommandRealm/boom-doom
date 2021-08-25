@@ -1,0 +1,1 @@
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace water

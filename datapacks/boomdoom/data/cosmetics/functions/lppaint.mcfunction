@@ -1,0 +1,2 @@
+execute as @e[tag=circle] at @s positioned as @a[scores={LP=9}] positioned ~ ~ ~ run particle falling_lava ^ ^ ^-.4 0 0 0 0 1 normal @a[tag=!nolag,scores={LP=9},distance=..1]
+execute as @e[tag=circle] at @s positioned as @a[scores={LP=9}] positioned ~ ~ ~ run particle falling_lava ^ ^ ^.4 0 0 0 0 1 normal @a[tag=!nolag,scores={LP=9},distance=..1]

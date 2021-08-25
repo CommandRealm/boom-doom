@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=19,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"------------------Magma Cube------------------","bold":true,"color":"dark_red","extra":[{"text":"\nMagma Cubes are the enhanced version of slimes. They place lava as they explode.","color":"red","bold":false}]}
+execute as @a[scores={showdetails=19,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

@@ -1,0 +1,10 @@
+scoreboard players add @a gamewins 0
+scoreboard players add @a percentage 0
+scoreboard players add @a matchesplayed 0
+scoreboard players add @a lifetimedeath 0
+scoreboard players add @a roundswon 0
+scoreboard players add @a roundsplayed 0
+scoreboard players add @a roundspercentage 0
+scoreboard players add @a clutch 0
+scoreboard players add @a perfect 0
+scoreboard players add @a explosion 0

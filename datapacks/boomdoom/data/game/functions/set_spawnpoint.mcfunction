@@ -1,0 +1,10 @@
+execute if score map map matches 11 run spawnpoint @a[tag=playing] 1000 70 0
+execute if score map map matches 2 run spawnpoint @a[tag=playing] 2000 70 0
+execute if score map map matches 3 run spawnpoint @a[tag=playing] 5000 70 0
+execute if score map map matches 4 run spawnpoint @a[tag=playing] 8000 70 0
+execute if score map map matches 5 run spawnpoint @a[tag=playing] 9000 70 0
+execute if score map map matches 6 run spawnpoint @a[tag=playing] 10000 70 0
+execute if score map map matches 7 run spawnpoint @a[tag=playing] 11000 70 0
+execute if score map map matches 8 run spawnpoint @a[tag=playing] 4000 70 0
+execute if score map map matches 10 run spawnpoint @a[tag=playing] 6000 70 0
+execute if score map map matches 9 run spawnpoint @a[tag=playing] 13000 70 0

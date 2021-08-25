@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:warped_fungus_on_a_stick"},"title":{"text":"Healing Station","color":"#591c1e","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Ride the Strider of Regeneration.","color":"#953236","bold":false}},"parent":"custom/use_book","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

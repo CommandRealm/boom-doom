@@ -1,0 +1,2 @@
+execute as @a[tag=lobby] at @s if block ~ 51 ~ sponge if block ~ 65 ~ air at @s[y=66,distance=..0.9] run effect give @s levitation 1 255 true
+execute as @a[tag=lobby] at @s if block ~ 51 ~ sponge if block ~ 65 ~ air at @s[y=65,distance=..0.9] run tp @s ~ 66 ~

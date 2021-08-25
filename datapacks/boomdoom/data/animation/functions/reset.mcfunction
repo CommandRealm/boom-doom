@@ -1,0 +1,39 @@
+fill 11 66 9 13 65 11 air
+fill 3 66 9 1 65 11 air
+summon minecraft:falling_block 3 66 9 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 3 65 9 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 2 66 9 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 2 65 9 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 1 66 9 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 1 65 9 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 3 66 10 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 3 65 10 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 2 66 10 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 2 65 10 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 1 66 10 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 1 65 10 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 3 66 11 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 3 65 11 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 2 66 11 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 2 65 11 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 1 66 11 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 1 65 11 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+
+summon minecraft:falling_block 13 66 9 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 13 65 9 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 12 66 9 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 12 65 9 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 11 66 9 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 11 65 9 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 13 66 10 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 13 65 10 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 12 66 10 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 12 65 10 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 11 66 10 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 11 65 10 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 13 66 11 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 13 65 11 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 12 66 11 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 12 65 11 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}
+summon minecraft:falling_block 11 66 11 {Time:1s,BlockState:{Name:"minecraft:glass"},Tags:["teamselect"]}
+summon minecraft:falling_block 11 65 11 {Time:1s,BlockState:{Name:"minecraft:sea_lantern"},Tags:["teamselect"]}

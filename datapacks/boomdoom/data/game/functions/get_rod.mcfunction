@@ -1,0 +1,2 @@
+clear @s end_rod{unlimited_rod:1}
+replaceitem entity @s hotbar.2 end_rod{item:1,unlimited_rod:1,display:{Name:"{\"text\":\"Enhancement Rod\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}"},AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attackSpeed", Name:"generic.attackSpeed", Amount:1000, Operation:0, UUIDLeast:894654, UUIDMost:2872},{Slot:"mainhand",AttributeName:"generic.attackDamage",Amount:1,Operration:0,UUIDLeast:89465,UUIDMost:2872}]}

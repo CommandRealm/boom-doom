@@ -1,0 +1,4 @@
+replaceitem entity @a[scores={clickeye=1}] enderchest.22 ender_pearl{display:{Name:"{\"text\":\"Reduced Lag Mode\",\"color\":\"red\",\"bold\":true,\"italic\":false}",Lore:["{\"text\":\"Reduced Lag Mode is currently: \",\"color\":\"light_purple\",\"italic\":false,\"extra\":[{\"text\":\"ON\",\"color\":\"green\",\"bold\":true}]}","{\"text\":\"Click to turn on unnecessary particles\",\"color\":\"gray\",\"italic\":false}"]},HideFlags:63}
+execute as @a[scores={clickeye=1}] at @s run playsound minecraft:ui.button.click master @s[tag=!no_click_sound]
+execute as @a[scores={clickeye=1}] at @s run tag @a[scores={clickeye=1}] add nolag
+scoreboard players reset @a clickeye

@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=10,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"------------------Herobrine------------------","bold":true,"color":"dark_red","extra":[{"text":"\nHerobrine enhances any mobs that are close to him.","color":"dark_gray","bold":false}]}
+execute as @a[scores={showdetails=10,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

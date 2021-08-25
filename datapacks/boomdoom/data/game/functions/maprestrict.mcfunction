@@ -1,0 +1,10 @@
+execute if score map map matches 11 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 1000 70 0
+execute if score map map matches 2 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 2000 70 0
+execute if score map map matches 3 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 5000 70 0
+execute if score map map matches 4 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 8000 70 0
+execute if score map map matches 5 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 9000 70 0
+execute if score map map matches 6 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 10000 70 0
+execute if score map map matches 7 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 11000 70 0
+execute if score map map matches 8 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 4000 70 0
+execute if score map map matches 10 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 6000 70 0
+execute if score map map matches 9 as @a[team=dead] at @s if block ~ 1 ~ red_concrete run tp @s 13000 70 0

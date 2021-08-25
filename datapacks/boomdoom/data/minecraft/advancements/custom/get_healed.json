@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:splash_potion","nbt":"{Potion:\"strong_healing\"}"},"title":{"text":"Health Boost","color":"light_purple","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Heal using a villager.","color":"dark_purple","bold":false}},"parent":"custom/root","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

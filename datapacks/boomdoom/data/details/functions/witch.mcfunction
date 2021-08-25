@@ -1,0 +1,2 @@
+tellraw @a[scores={showdetails=21,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] {"text":"--------------------Witch--------------------","bold":true,"color":"dark_purple","extra":[{"text":"\nWitches are the enhanced version of villagers. They reveal themselves right before throwing a poison potion.","color":"light_purple","bold":false}]}
+execute as @a[scores={showdetails=21,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1.5

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:minecart"},"title":{"text":"I'm Invulnerable!","color":"dark_blue","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Ride the Minecart of Protection.","color":"blue","bold":false}},"parent":"custom/get_healed","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

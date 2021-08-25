@@ -1,0 +1,6 @@
+execute as @a[scores={death=1..,explosion=1},tag=playing,gamemode=!spectator] at @s run summon minecraft:firework_rocket ~ 71 ~ {LifeTime:35,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Flight:2,Explosions:[{Type:3,Flicker:1,Trail:1}]}}}}
+execute as @a[scores={death=1..,explosion=2},tag=playing,gamemode=!spectator] at @s run particle item red_tulip ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]
+execute as @a[scores={death=1..,explosion=2},tag=playing,gamemode=!spectator] at @s run particle item white_tulip ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]
+execute as @a[scores={death=1..,explosion=2},tag=playing,gamemode=!spectator] at @s run particle item lilac ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]
+execute as @a[scores={death=1..,explosion=2},tag=playing,gamemode=!spectator] at @s run particle item rose_bush ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]
+execute as @a[scores={death=1..,explosion=2},tag=playing,gamemode=!spectator] at @s run particle item cornflower ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]

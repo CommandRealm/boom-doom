@@ -1,0 +1,4 @@
+execute as @e[tag=snowstorm,type=area_effect_cloud] at @s run particle minecraft:item snow_block ~ ~1 ~ 0.5 0.5 0.5 0.35 5 normal @a[tag=!nolag]
+execute as @e[tag=snowstorm,type=area_effect_cloud] at @s run particle minecraft:falling_dust white_concrete ~ ~1 ~ 0.85 1.55 0.55 0.85 5 force @a[tag=playing]
+execute as @e[tag=snowstorm,type=area_effect_cloud] at @s run particle minecraft:falling_dust light_gray_concrete ~ ~1 ~ 0.85 1.35 0.85 0.55 5 normal @a[tag=!nolag]
+execute as @e[tag=snowstorm,type=area_effect_cloud] at @s as @a[tag=playing,gamemode=!spectator,distance=..1.5] at @s run function game:carved_golem/in_snowstorm

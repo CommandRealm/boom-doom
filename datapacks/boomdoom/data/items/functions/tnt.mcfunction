@@ -1,0 +1,4 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:tnt"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run scoreboard players set @e[tag=mob,distance=..3] explode 30
+execute as @e[type=item,nbt={Item:{id:"minecraft:tnt"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run particle smoke ~ 67 ~ 0.3 0.3 0.3 0 50
+execute as @e[type=item,nbt={Item:{id:"minecraft:tnt"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run playsound minecraft:block.lava.extinguish master @a
+execute as @e[type=item,nbt={Item:{id:"minecraft:tnt"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run kill @s

@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_the_recipe": "2020-02-15 09:23:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:swamp": "2020-02-23 00:06:20 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

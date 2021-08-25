@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:snow_block"},"title":{"text":"Noses Are Carrots!?","color":"#ff8a00","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Visit the snowman in the lobby.","color":"gold","bold":false}},"parent":"custom/visit_nether","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}
