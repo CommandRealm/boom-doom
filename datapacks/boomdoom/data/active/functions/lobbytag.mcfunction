@@ -10,4 +10,4 @@ tag @a[team=redlobby,x=0,y=66,z=0,distance=..200] add lobby
 tag @a[team=bluelobby,x=0,y=66,z=0,distance=..200] add lobby
 tag @a[team=epic,x=0,y=66,z=0,distance=..200] add lobby
 tag @a[x=-1000,y=66,z=0,distance=..210,tag=!playing] add lobby
-tp @a[x=0,y=66,z=0,distance=..100] @p[tag=playing,distance=100..]
+tp @a[x=0,y=66,z=0,distance=..100,tag=!lobby] @p[tag=playing,distance=100..]

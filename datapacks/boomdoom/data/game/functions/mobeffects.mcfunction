@@ -3,11 +3,11 @@ effect give @e[tag=mob,type=!zombie,type=!drowned,type=!husk,type=!hoglin,type=!
 effect give @e[tag=mob,tag=!noweak] weakness 255 100 true
 effect give @e[tag=mob,tag=speed10] speed 1 9 true
 effect give @e[tag=mob,type=husk] speed 1 1 true
-effect give @a[nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}},tag=playing] resistance 1 255
+effect give @a[nbt={RootVehicle:{Entity:{}}},tag=playing] resistance 1 255
 advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}},tag=playing] only minecraft:custom/ride_minecart
 advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}},tag=playing] only minecraft:custom/ride_strider
-effect give @a[nbt={RootVehicle:{Entity:{id:"minecraft:horse"}}},tag=playing] resistance 1 255
 execute as @a[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}},tag=playing] at @s unless entity @s[nbt={ActiveEffects:[{Id:10b}]}] run effect give @s regeneration 5 0 true
+execute if entity @a[nbt={RootVehicle:{Entity:{id:"minecraft:llama"}}},tag=playing] run function items:llama/active_rider
 execute as @e[type=boat,nbt={Passengers:[{Tags:["mob"]}]}] at @s run kill @e[tag=mob,distance=..1.5]
 execute as @e[type=minecart,nbt={Passengers:[{Tags:["mob"]}]}] at @s run kill @e[tag=mob,distance=..1.5]
 execute as @e[tag=mob] at @s run data merge entity @s {Attributes:[{Base:100,Name:"generic.maxHealth"}]}

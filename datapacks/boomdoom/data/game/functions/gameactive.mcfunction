@@ -18,15 +18,16 @@ effect clear @e[tag=mob] poison
 execute as @e[tag=mob] at @s at @s[y=0,distance=..15] run kill @s
 kill @e[type=item,nbt={Item:{id:"minecraft:minecart"}},tag=!unusable]
 kill @e[type=item,nbt={Item:{id:"minecraft:saddle"}},tag=!unusable]
+kill @e[type=item,nbt={Item:{id:"minecraft:blue_carpet"}},tag=!unusable]
 effect clear @a[scores={totem=1..}] regeneration
 scoreboard players set @a totem 0
-execute as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,tag:{kb_item:1}}]}] run function game:get_stick
-execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:1b,tag:{kb_item:2}}]}] run function game:get_sword
+execute unless score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,tag:{kb_item:1}}]}] run function game:get_stick
+execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,tag:{kb_item:2}}]}] run function game:get_sword
 execute as @a[tag=playing,gamemode=!spectator] at @s positioned ~ ~1 ~ as @e[type=item,distance=..1] unless entity @s[tag=notele] unless entity @s[tag=unusable] unless entity @s[type=item,nbt={Item:{id:"minecraft:chest"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:cobweb"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:tnt"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:stone_pressure_plate"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:anvil"}}] unless entity @s[type=item,nbt={Item:{tag:{poison:1}}}] run tag @s add tp2player
 execute as @e[tag=tp2player] at @s run data merge entity @s {PickupDelay:0}
 execute as @e[tag=tp2player] at @s run tp @s @p[tag=playing,gamemode=!spectator]
 function items:checkitems
-function game:mobeffects
+
 function game:explode
 function game:dead
 execute if score spawn spawn matches 1.. run function game:generatespawn
@@ -102,6 +103,7 @@ execute if entity @e[type=magma_cube,tag=mob] run function game:magmacube
 effect give @e[tag=invis] minecraft:invisibility 1 255 true
 execute if entity @e[tag=darkredname] run function game:darkredname
 execute if entity @e[tag=itemfall] run function items:itemanimation
+function game:mobeffects
 execute if entity @e[tag=spawnitem] run function game:itemspawn
 execute if entity @e[tag=getitemid] run function game:itemid
 function game:tpdown
@@ -138,3 +140,6 @@ execute as @e[type=horse] at @s unless block ~ ~ ~ air unless block ~ ~ ~ lava u
 execute as @a[tag=playing,nbt={Inventory:[{id:"minecraft:arrow"}]}] at @s unless entity @s[nbt={Inventory:[{id:"minecraft:bow"}]}] run clear @s arrow
 clear @a[tag=playing,gamemode=adventure] saddle
 execute as @e[type=snow_golem,tag=!enhanced,tag=mob,nbt={Pumpkin:0b}] at @s run function game:sheared_golem
+
+##
+execute if entity @e[type=goat,tag=mob] run function game:goat/main

@@ -1,1 +1,1 @@
-replaceitem entity @a armor.head air
+item replace entity @a armor.head with air

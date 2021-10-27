@@ -27,8 +27,7 @@ spawnpoint @a[team=spec] 8 66 10
 clear @a[team=spec]
 gamemode adventure @a[team=spec]
 gamemode adventure @a[gamemode=!adventure,tag=playing]
-scoreboard players set @a[tag=playing] ready 0
-execute if score $toggle auto_ready matches 1 run scoreboard players set @a[tag=playing] ready 1
+scoreboard players set @a[tag=playing] ready 1
 team join lobby @a[tag=playing]
 team join test @a[tag=playing,tag=test]
 team join help @a[tag=playing,tag=help]
@@ -63,3 +62,6 @@ fill -32 57 20 -26 61 20 air replace iron_bars
 bossbar set minecraft:lobby players @a[tag=lobby,tag=!playing]
 gamerule fireDamage false
 
+scoreboard players set $button pregame 10
+
+scoreboard objectives remove wins

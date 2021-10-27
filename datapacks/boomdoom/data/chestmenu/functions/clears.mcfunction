@@ -8,4 +8,5 @@ execute if entity @a[scores={menu=6},tag=lobby] run function chestmenu:menu6
 execute if entity @a[scores={menu=7},tag=lobby] run function chestmenu:menu7
 execute if entity @a[scores={menu=8},tag=lobby] run function chestmenu:menu8
 execute if entity @a[scores={menu=9},tag=lobby] run function chestmenu:menu9
+execute if entity @a[scores={menu=99},tag=lobby] run function chestmenu:menu99
 

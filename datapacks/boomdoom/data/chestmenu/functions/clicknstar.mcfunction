@@ -11,5 +11,5 @@ execute as @a[scores={clicknstar=1}] at @s run loot replace entity @s enderchest
 execute as @a[scores={clicknstar=1}] at @s run loot replace entity @s enderchest.14 loot minecraft:stats/roundspercentage
 execute as @a[scores={clicknstar=1}] at @s run loot replace entity @s enderchest.22 loot minecraft:stats/perfect
 execute as @a[scores={clicknstar=1}] at @s run loot replace entity @s enderchest.23 loot minecraft:stats/clutch
-replaceitem entity @a[scores={clicknstar=1}] enderchest.18 barrier{display:{Name:"{\"text\":\"Back\",\"color\":\"red\",\"italic\":false}"}} 
+item replace entity @a[scores={clicknstar=1}] enderchest.18 with barrier{display:{Name:"{\"text\":\"Back\",\"color\":\"red\",\"italic\":false}"}} 
 scoreboard players reset @a clicknstar

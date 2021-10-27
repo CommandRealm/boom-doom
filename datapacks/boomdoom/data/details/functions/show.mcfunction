@@ -1,4 +1,4 @@
-scoreboard players set @a[scores={ready=1..}] showdetails 0
+##scoreboard players set @a[scores={ready=1..}] showdetails 0
 execute if score timer timer matches 1.. run scoreboard players set @a showdetails 0
 title @a[scores={showdetails=1},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Chicken"}
 title @a[scores={showdetails=2},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Cow","color":"yellow"}
@@ -63,9 +63,19 @@ title @a[scores={showdetails=59},tag=lobby,x=0,y=66,z=0,distance=..200] title {"
 title @a[scores={showdetails=60},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Elytra","color":"light_purple"}
 title @a[scores={showdetails=61},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Slowness Potion","color":"#414141"}
 title @a[scores={showdetails=62},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Boom Item","color":"red"}
+title @a[scores={showdetails=63},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Goat","color":"gray"}
+title @a[scores={showdetails=64},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Bee","color":"yellow"}
+title @a[scores={showdetails=65},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Avalanche","color":"white"}
+title @a[scores={showdetails=66},tag=lobby,x=0,y=66,z=0,distance=..200] title [{"text":"Jump ","color":"green"},{"text":"Boots","color":"dark_green"}]
+title @a[scores={showdetails=67},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Whirlpool","color":"dark_aqua"}
+title @a[scores={showdetails=68},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Swapper Beam","color":"gold"}
+title @a[scores={showdetails=69},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Wall","color":"gray"}
+title @a[scores={showdetails=70},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Llama of Abundance","color":"yellow"}
+title @a[scores={showdetails=71},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Screaming Goat","color":"gray"}
+title @a[scores={showdetails=72},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Bee Swarm","color":"gold"}
 
 title @a[scores={showdetails=1..},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Crouch for details","color":"blue"}
-title @a[scores={showdetails=-100},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"HippehWizard","color":"green"}
+title @a[scores={showdetails=-100},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Connop","color":"green"}
 title @a[scores={showdetails=-100},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Builder, Co-Producer, and Maker of the Lobby"}
 title @a[scores={showdetails=-101},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"FalconReign","color":"green"}
 title @a[scores={showdetails=-101},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Builder, Programmer, and Producer"}

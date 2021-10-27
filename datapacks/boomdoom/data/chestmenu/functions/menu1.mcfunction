@@ -15,3 +15,5 @@ execute as @a[tag=lobby,scores={menu=1}] at @s run execute store result score @s
 execute as @a[scores={clickstar=1}] at @s run function chestmenu:clickstar
 execute as @a[tag=lobby,scores={menu=1}] at @s run execute store result score @s clickwhat run clear @s honeycomb
 execute as @a[scores={clickwhat=1}] at @s run function chestmenu:clickwhat
+
+execute as @a[tag=lobby,scores={menu=1}] at @s unless entity @s[tag=!has_test,tag=!has_help,tag=!has_bld,tag=!has_srbld,tag=!has_prg,tag=!has_srprg,tag=!has_manager,tag=!has_lead,tag=!has_pc,tag=!has_cr,tag=!has_art] unless data entity @s EnderItems[{id:"minecraft:written_book"}] run function chestmenu:start_titles

@@ -26,3 +26,9 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:elytra"}},tag=playing] at @s run 
 execute as @a[nbt={SelectedItem:{id:"minecraft:fishing_rod"}},tag=playing] at @s run title @s actionbar {"text":"Use to pull players or mobs.","color":"gold"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:gunpowder"}},tag=playing] at @s run title @s actionbar {"text":"Drop to summon a \"fake item\" that explodes as it touches the ground.","color":"dark_red"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{slowness_potion:1,CustomPotionEffects:[{Id:2}]}}},tag=playing] at @s run title @s actionbar {"text":"Throw to give your opponents slowness.","color":"gray"}
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:snow_block"}},tag=playing] at @s run title @s actionbar {"text":"Drop to start an avalanche. A safepoint will be created where you used it. Players will take damage if the avalanche hits them.","color":"gray"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:leather_boots"}},tag=playing] at @s run title @s actionbar {"text":"Boots enchanted with Feather Falling X. Equip to receive jump boost for a short time. The boots will permanently stay equipped.","color":"dark_green"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:blue_glazed_terracotta"}},tag=playing] at @s run title @s actionbar {"text":"Drop to throw a whirlpool. The whirlpool will move nearby mobs towards itself.","color":"blue"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:ender_eye"}},tag=playing] at @s run title @s actionbar {"text":"Drop to shoot a laser. If this laser hits a player you will swap positions.","color":"yellow"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:stone_bricks"}},tag=playing] at @s run title @s actionbar {"text":"Drop to create a temporary wall in front of your face.","color":"dark_gray"}

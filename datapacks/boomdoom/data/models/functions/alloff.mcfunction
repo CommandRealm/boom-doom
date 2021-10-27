@@ -19,6 +19,8 @@ scoreboard players set polar model 2
 scoreboard players set golem model 2
 scoreboard players set pillager model 2
 scoreboard players set ravager model 2
+scoreboard players set bee model 2
+scoreboard players set goat model 2
 function models:modeltnt
 function models:modelzombie
 function models:modelspider
@@ -40,3 +42,5 @@ function models:model_polar
 function models:model_golem
 function models:model_pillager
 function models:model_ravager
+function models:model_bee
+function models:model_goat

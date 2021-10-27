@@ -2,9 +2,9 @@ execute if score round round matches 1 run function game:spawnpoints
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace lava
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace cobweb
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace fire
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace anvil
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace chipped_anvil
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace damaged_anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace chipped_anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace damaged_anvil
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace snow
 execute at @e[tag=web] run fill ~2 ~ ~2 ~-2 ~ ~-2 air replace cobweb
 kill @e[tag=web]

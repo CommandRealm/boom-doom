@@ -16,7 +16,7 @@ execute as @e[tag=mob,tag=enhance,type=chicken] at @s run summon chicken ~ ~ ~ {
 execute as @e[tag=mob,tag=enhance,type=chicken] at @s run summon chicken ~ ~ ~ {Silent:1b,Tags:["speed10","enhancedchicken","enhanced","ER3","mob"]}
 execute as @e[tag=mob,tag=enhance,type=chicken] at @s run scoreboard players operation @e[tag=enhancedchicken,tag=mob,distance=..2] explode = @s explode
 tag @e[tag=mob,tag=enhance,type=chicken] remove enhance
-execute as @e[tag=mob,tag=enhance,type=cow] at @s run summon mooshroom ~ 66.05 ~ {NoGravity:1,Tags:["mob","ER3","enhanced","nausea","blindness"]}  
+execute as @e[tag=mob,tag=enhance,type=cow] at @s run summon mooshroom ~ 66.05 ~ {NoGravity:1,Tags:["mob","ER3","enhanced","nausea","blindness"]}
 execute as @e[tag=mob,tag=enhance,type=cow] at @s run scoreboard players operation @e[type=mooshroom,tag=mob,distance=..2] explode = @s explode
 tp @e[tag=mob,tag=enhance,type=cow] ~ 0 ~
 execute as @e[tag=mob,tag=enhance,type=pig] at @s run summon hoglin ~ 66.05 ~ {Tags:["enhanced","noweak","noR","die"],IsImmuneToZombification:1,Health:7s}
@@ -32,11 +32,11 @@ execute as @e[tag=mob,tag=enhance,type=villager] at @s run tag @s add poison
 execute as @e[tag=mob,tag=enhance,type=villager] at @s run tag @s add enhanced
 execute as @e[tag=mob,tag=enhance,type=villager] at @s run tag @s remove HP
 execute as @e[tag=mob,tag=enhance,type=villager] at @s run tag @s remove enhance
-execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:4}] at @s run summon magma_cube ~ 66.05 ~  {NoGravity:0,Tags:["mob","ER5","magmascore","Lspawn"],Size:4,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
-execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:3}] at @s run summon magma_cube ~ 66.05 ~  {NoGravity:0,Tags:["mob","ER4","magmascore","Lspawn"],Size:3,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
-execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:2}] at @s run summon magma_cube ~ 66.05 ~  {NoGravity:0,Tags:["mob","ER3","magmascore","Lspawn"],Size:2,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
-execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:1}] at @s run summon magma_cube ~ 66.05 ~  {NoGravity:0,Tags:["mob","ER2","magmascore","Lspawn"],Size:1,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
-execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:0}] at @s run summon magma_cube ~ 66.05 ~  {NoGravity:0,Tags:["mob","ER1","magmascore","Lspawn"],Size:0,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
+execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:4}] at @s run summon magma_cube ~ 66.05 ~ {NoGravity:0,Tags:["mob","ER5","magmascore","Lspawn"],Size:4,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
+execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:3}] at @s run summon magma_cube ~ 66.05 ~ {NoGravity:0,Tags:["mob","ER4","magmascore","Lspawn"],Size:3,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
+execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:2}] at @s run summon magma_cube ~ 66.05 ~ {NoGravity:0,Tags:["mob","ER3","magmascore","Lspawn"],Size:2,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
+execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:1}] at @s run summon magma_cube ~ 66.05 ~ {NoGravity:0,Tags:["mob","ER2","magmascore","Lspawn"],Size:1,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
+execute as @e[tag=mob,tag=enhance,type=slime,nbt={Size:0}] at @s run summon magma_cube ~ 66.05 ~ {NoGravity:0,Tags:["mob","ER1","magmascore","Lspawn"],Size:0,Attributes:[{Base:0,Name:"generic.follow_range"},{Base:0,Name:"generic.attack_damage"}]}
 execute as @e[tag=mob,tag=enhance,type=slime] at @s run scoreboard players set @e[type=magma_cube,tag=mob,distance=..2,nbt={Size:4}] mcube 4
 execute as @e[tag=mob,tag=enhance,type=slime] at @s run scoreboard players set @e[type=magma_cube,tag=mob,distance=..2,nbt={Size:3}] mcube 3
 execute as @e[tag=mob,tag=enhance,type=slime] at @s run scoreboard players set @e[type=magma_cube,tag=mob,distance=..2,nbt={Size:2}] mcube 2
@@ -82,7 +82,7 @@ execute as @e[tag=mob,tag=enhance,type=snow_golem] at @s run summon snow_golem ~
 execute as @e[tag=mob,tag=enhance,type=snow_golem] at @s run scoreboard players operation @e[type=snow_golem,tag=mob,distance=..2] explode = @s explode
 tp @e[tag=mob,tag=enhance,type=snow_golem] ~ 0 ~
 
-execute as @e[tag=mob,tag=enhance,type=pillager] at @s run summon pillager ~ 66.05 ~ {HandItems:[{id:"minecraft:crossbow",Count:1b},{}],Pumpkin:0b,NoGravity:1b,Tags:["mob","NE","enhanced"],ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1b}],Attributes:[{Name:"generic.follow_range",Base:0}],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:white_banner",tag:{BlockEntityTag:{Patterns:[{Color:9,Pattern:"mr"},{Color:8,Pattern:"bs"},{Color:7,Pattern:"cs"},{Color:8,Pattern:"bo"},{Color:15,Pattern:"ms"},{Color:8,Pattern:"hh"},{Color:8,Pattern:"mc"},{Color:15,Pattern:"bo"}]}}}]}
+execute as @e[tag=mob,tag=enhance,type=pillager] at @s run summon pillager ~ 66.05 ~ {HandItems:[{id:"minecraft:crossbow",Count:1b},{}],NoGravity:1b,Tags:["mob","NE","enhanced"],ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1b}],Attributes:[{Name:"generic.follow_range",Base:0}],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:white_banner",tag:{BlockEntityTag:{Patterns:[{Color:9,Pattern:"mr"},{Color:8,Pattern:"bs"},{Color:7,Pattern:"cs"},{Color:8,Pattern:"bo"},{Color:15,Pattern:"ms"},{Color:8,Pattern:"hh"},{Color:8,Pattern:"mc"},{Color:15,Pattern:"bo"}]}}}]}
 execute as @e[tag=mob,tag=enhance,type=pillager] at @s run scoreboard players operation @e[type=pillager,tag=mob,distance=..2] explode = @s explode
 tp @e[tag=mob,tag=enhance,type=pillager] ~ 0 ~
 
@@ -90,3 +90,18 @@ execute as @e[tag=mob,tag=enhance,type=ravager] at @s run summon item ~ 66.2 ~ {
 execute if entity @e[type=item,nbt={Item:{tag:{unstackable:0}}}] run scoreboard players add $number unstackable 1
 execute as @e[type=item,nbt={Item:{tag:{unstackable:0}}}] at @s store result entity @s Item.tag.unstackable short 1 run scoreboard players get $number unstackable
 tp @e[tag=mob,tag=enhance,type=ravager] ~ 0 ~
+
+
+execute as @e[tag=mob,tag=enhance,type=goat] at @s run data modify entity @s IsScreamingGoat set value 1b
+execute as @e[tag=mob,tag=enhance,type=goat] at @s run tag @s add enhanced
+
+execute as @e[tag=mob,tag=enhance,type=goat] at @s run tag @s remove enhance
+
+execute as @e[tag=mob,tag=enhance,type=bee] at @s run summon bee ~0.5 ~ ~1 {NoGravity:1b,Tags:["mob","ER3","enhanced","needs_timer"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute as @e[tag=mob,tag=enhance,type=bee] at @s run summon bee ~-0.5 ~ ~1 {NoGravity:1b,Tags:["mob","ER3","enhanced","needs_timer"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute as @e[tag=mob,tag=enhance,type=bee,tag=!needs_timer] at @s run scoreboard players operation @e[type=bee,tag=needs_timer] explode = @s explode
+tag @e[type=bee] remove needs_timer 
+tag @e[type=bee,tag=mob,tag=enhance] remove ER2
+tag @e[type=bee,tag=mob,tag=enhance] add ER3
+execute as @e[type=bee,tag=mob,tag=enhance] at @s run tag @s add enhanced
+execute as @e[type=bee,tag=mob,tag=enhance] at @s run tag @s remove enhance

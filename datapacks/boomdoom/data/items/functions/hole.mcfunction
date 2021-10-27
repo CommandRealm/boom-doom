@@ -1,4 +1,4 @@
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run summon area_effect_cloud ~ 66 ~ {Invisible:1,Marker:1,NoGravity:1,Invulnerable:1,Tags:["hole","NE","HN","die"],Duration:100000}
-execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run fill ~1 ~-1 ~1 ~-1 ~-3 ~-1 air
+execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run fill ~1 ~-1 ~1 ~-1 63 ~-1 air
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run particle minecraft:falling_dust black_concrete ~ 65 ~ 1 1 1 0 90
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"},OnGround:1b},tag=!unusable] at @s at @s[y=66,distance=..0.9] run kill @s

@@ -55,3 +55,34 @@ team join green Criteria:
 scoreboard objectives add intro_text dummy
 
 gamerule sendCommandFeedback false
+
+scoreboard objectives add drop_ready_book minecraft.dropped:minecraft.knowledge_book
+scoreboard objectives add pregame dummy
+
+kill @e[type=area_effect_cloud,tag=lobby_text]
+summon minecraft:area_effect_cloud 6 71.5 20 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["lobby_text"],CustomNameVisible:1b}
+
+scoreboard objectives add number dummy
+scoreboard players set $20 number 20
+
+gamerule doLimitedCrafting true
+
+scoreboard objectives add prefix dummy
+
+scoreboard objectives add settings dummy
+
+scoreboard players add $obstacles settings 0
+
+scoreboard objectives add drop_snow_block minecraft.dropped:minecraft.snow_block
+scoreboard objectives add drop_whirlpool minecraft.dropped:minecraft.blue_glazed_terracotta
+scoreboard objectives add drop_ender_eye minecraft.dropped:minecraft.ender_eye
+scoreboard objectives add drop_stone_brick minecraft.dropped:minecraft.stone_bricks
+
+scoreboard objectives add calculate dummy
+
+scoreboard objectives add attack dummy
+
+scoreboard objectives add equip_boots minecraft.used:minecraft.leather_boots
+scoreboard objectives add jump_boost_timer dummy
+
+gamerule doTileDrops false

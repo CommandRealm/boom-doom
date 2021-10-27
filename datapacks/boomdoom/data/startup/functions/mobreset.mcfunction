@@ -19,3 +19,5 @@ scoreboard players set $polar spawn_number 0
 scoreboard players set $ravager spawn_number 0
 scoreboard players set $pillager spawn_number 0
 scoreboard players set $trader spawn_number 0
+scoreboard players set $goat spawn_number 0
+scoreboard players set $bee spawn_number 0

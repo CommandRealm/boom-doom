@@ -19,4 +19,6 @@ execute if entity @s[scores={menu=7}] run function chestmenu:clickbone3
 execute if entity @s[scores={menu=8}] run function chestmenu:start_kb_items
 execute if entity @s[scores={menu=9}] run function chestmenu:start_advancements
 
+execute if entity @s[scores={menu=99}] run function chestmenu:start_titles
+
 tag @s remove no_click_sound

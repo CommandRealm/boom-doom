@@ -6,4 +6,5 @@ execute as @e[tag=spin2] at @s positioned as @e[tag=itemfall] run particle end_r
 execute if entity @e[tag=itemfall] run function items:nearitem
 execute as @e[tag=itemfall,type=area_effect_cloud,tag=fake_itemfall] at @s at @s[y=61,distance=..5] run function items:boom_item
 execute as @e[tag=itemfall,type=area_effect_cloud,tag=!fake_itemfall] at @s at @s[y=61,distance=..5] run function items:spawn_item
+
 execute as @e[tag=itemfall,scores={nearitem=..1}] at @s at @s[y=61,distance=..5] run kill @s

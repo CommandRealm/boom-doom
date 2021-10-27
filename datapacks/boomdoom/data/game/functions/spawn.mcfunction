@@ -210,3 +210,31 @@ execute if score $ravager spawn_number matches 1 run tellraw @a[tag=playing] {"t
 execute if score $ravager spawn_number matches 1 at @a[tag=playing,gamemode=adventure] run summon firework_rocket ~ ~5 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;1973019,15435844],FadeColors:[I;1973019]}]}}},Tags:["die"]}
 
 scoreboard players set $ravager spawn_number 0
+
+
+
+execute if score $bee spawn_number matches 1 at @e[tag=spawner,sort=random,limit=1] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 2 at @e[tag=spawner,sort=random,limit=2] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 3 at @e[tag=spawner,sort=random,limit=3] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 4 at @e[tag=spawner,sort=random,limit=4] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 5 at @e[tag=spawner,sort=random,limit=5] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 6 at @e[tag=spawner,sort=random,limit=6] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 7 at @e[tag=spawner,sort=random,limit=7] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $bee spawn_number matches 8 at @e[tag=spawner,sort=random,limit=8] run summon bee ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER2"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+
+scoreboard players set $bee spawn_number 0
+
+execute if score $goat spawn_number matches 1 at @e[tag=spawner,sort=random,limit=1] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 2 at @e[tag=spawner,sort=random,limit=2] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 3 at @e[tag=spawner,sort=random,limit=3] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 4 at @e[tag=spawner,sort=random,limit=4] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 5 at @e[tag=spawner,sort=random,limit=5] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 6 at @e[tag=spawner,sort=random,limit=6] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 7 at @e[tag=spawner,sort=random,limit=7] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+execute if score $goat spawn_number matches 8 at @e[tag=spawner,sort=random,limit=8] run summon goat ~ ~ ~ {NoGravity:1b,Tags:["mob","SE5","ER3"],Rotation:[0.0f,0.0f],Attributes:[{Name:"generic.follow_range",Base:0},{Name:"generic.attack_damage",Base:0}]}
+
+scoreboard players set $goat spawn_number 0
+
+execute at @e[type=area_effect_cloud,tag=spawner] run fill ~6 ~ ~6 ~-6 ~12 ~-6 air replace anvil
+execute at @e[type=area_effect_cloud,tag=spawner] run fill ~6 ~ ~6 ~-6 ~12 ~-6 air replace chipped_anvil
+execute at @e[type=area_effect_cloud,tag=spawner] run fill ~6 ~ ~6 ~-6 ~12 ~-6 air replace damaged_anvil

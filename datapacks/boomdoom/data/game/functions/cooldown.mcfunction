@@ -18,9 +18,9 @@ execute if score cooldown cooldown matches 0 if entity @a[tag=playing] run funct
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace lava
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace cobweb
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace fire
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace anvil
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace chipped_anvil
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace damaged_anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace chipped_anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace damaged_anvil
 scoreboard players set round -2
 
 execute if score mode mode matches 2 run scoreboard players reset @a wins

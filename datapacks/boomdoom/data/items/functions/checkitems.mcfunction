@@ -28,3 +28,23 @@ execute if entity @e[type=item,nbt={Item:{id:"minecraft:chest"}},tag=!unusable] 
 execute as @a[scores={drop_netherite=1..},tag=playing] at @s run function items:drop_netherite
 clear @a[tag=playing,gamemode=adventure] elytra{Damage:431}
 advancement grant @a[tag=playing,gamemode=adventure,nbt={Inventory:[{Slot:102b,id:"minecraft:elytra"}]}] only minecraft:custom/equip_elytra
+
+# new cr showcase items
+
+# avalanche
+execute as @a[scores={drop_snow_block=1..},tag=playing] at @s run function items:avalanche/drop
+execute if entity @e[type=marker,tag=avalanche_point] run function items:avalanche/main
+
+# whirlpool
+execute as @a[scores={drop_whirlpool=1..},tag=playing] at @s run function items:whirlpool/drop
+execute if entity @e[type=armor_stand,tag=throwable] run function items:whirlpool/active
+execute if entity @e[type=armor_stand,tag=whirlpool] run function items:whirlpool/effects/main
+# swapper beam
+execute as @a[scores={drop_ender_eye=1..},tag=playing] at @s run function items:swapper_beam/drop
+
+# wall
+execute as @a[scores={drop_stone_brick=1..},tag=playing] at @s run function items:wall/drop
+
+# jump boots
+execute as @a[scores={equip_boots=1..},tag=playing] at @s run function items:jump_boots/equip
+execute if entity @a[tag=playing,scores={jump_boost_timer=1..}] run function items:jump_boots/active

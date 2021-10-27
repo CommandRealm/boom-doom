@@ -1,5 +1,5 @@
 execute if entity @a[x=-1000,y=66,z=0,distance=..400] run function tutorial:active
-execute if entity @e[tag=lobby] run function active:lobby
+execute if entity @a[tag=lobby] run function active:lobby
 kill @e[type=tnt]
 execute as @e[type=item,x=7,y=68,z=6,distance=..10] unless entity @s[type=item,nbt={Item:{tag:{TeamSwap:1}}}] unless entity @s[tag=killdiamond] run kill @s
 execute as @a[scores={hat=0..,button=6},tag=!darmor] at @s unless entity @s[nbt={Inventory:[{Slot:103b,tag:{hat:1}}]}] run function cosmetics:hat
@@ -20,7 +20,7 @@ effect give @a saturation 2 255 true
 execute if score game game matches 0 run function startup:join
 scoreboard players set @a[scores={leave=1..}] newplayer 0
 scoreboard players add @a newplayer 1
-execute if entity @a[scores={newplayer=1}] run function active:newplayer
+execute as @a[scores={newplayer=1}] at @s run function active:newplayer
 scoreboard players set @a leave 0
 scoreboard players add @a ready 0
 
@@ -38,3 +38,6 @@ execute as @e[type=item,tag=nopickup] at @s run data merge entity @s {Age:-32768
 title @a[scores={newplayer=101}] times 0 10 5
 
 advancement grant @a[advancements={custom/unlock_death_effect=true,custom/unlock_hat=true,custom/unlock_prefix=true,custom/unlock_kb_item=true}] only minecraft:completionist/completionist
+
+##If a player drops their book
+execute as @a[tag=!playing,gamemode=adventure,scores={drop_ready_book=1..}] at @s run function active:drop_ready_book

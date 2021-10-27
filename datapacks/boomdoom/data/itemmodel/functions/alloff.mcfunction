@@ -25,6 +25,13 @@ scoreboard players set $slowness itemmodel 2
 scoreboard players set $strider itemmodel 2
 scoreboard players set $boom_item itemmodel 2
 
+scoreboard players set $avalanche itemmodel 2
+scoreboard players set $jump_boots itemmodel 2
+scoreboard players set $whirlpool itemmodel 2
+scoreboard players set $swapper_beam itemmodel 2
+scoreboard players set $wall itemmodel 2
+scoreboard players set $llama itemmodel 2
+
 function itemmodel:anvil
 function itemmodel:sword
 function itemmodel:bizarre
@@ -50,3 +57,10 @@ function itemmodel:elytra
 function itemmodel:slowness
 function itemmodel:strider
 function itemmodel:boom_item
+
+function itemmodel:avalanche
+function itemmodel:jump_boots
+function itemmodel:whirlpool
+function itemmodel:swapper_beam
+function itemmodel:wall
+function itemmodel:llama

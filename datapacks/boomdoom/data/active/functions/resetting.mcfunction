@@ -1,107 +1,78 @@
-execute as @a at @s unless entity @s[scores={resetting=1..}] run tag @s add resetting
-scoreboard players set @a[tag=resetting] gamewins 0
-scoreboard players set @a[tag=resetting] percentage 0
-scoreboard players set @a[tag=resetting] matchesplayed 0
-scoreboard players set @a[tag=resetting] lifetimedeath 0
-scoreboard players set @a[tag=resetting] roundswon 0
-scoreboard players set @a[tag=resetting] roundsplayed 0
-scoreboard players set @a[tag=resetting] roundspercentage 0
-scoreboard players set @a[tag=resetting] clutch 0
-scoreboard players set @a[tag=resetting] perfect 0
-scoreboard players set @a[tag=resetting] explosion 0
+
+scoreboard players set @s gamewins 0
+scoreboard players set @s percentage 0
+scoreboard players set @s matchesplayed 0
+scoreboard players set @s lifetimedeath 0
+scoreboard players set @s roundswon 0
+scoreboard players set @s roundsplayed 0
+scoreboard players set @s roundspercentage 0
+scoreboard players set @s clutch 0
+scoreboard players set @s perfect 0
+scoreboard players set @s explosion 0
 
 
 
-tag @a[tag=resetting] remove player
-tag @a[tag=resetting] remove building
+tag @s remove player
+tag @s remove building
 
-tag @a[tag=resetting] remove lpflowerrocket
-tag @a[tag=resetting] remove lppaint
-tag @a[tag=resetting] remove lptears
-tag @a[tag=resetting] remove lpdiamonds
-tag @a[tag=resetting] remove lpflames
-tag @a[tag=resetting] remove lpstorm
+tag @s remove lpflowerrocket
+tag @s remove lppaint
+tag @s remove lptears
+tag @s remove lpdiamonds
+tag @s remove lpflames
+tag @s remove lpstorm
 
-tag @a[tag=resetting] remove hatice
-tag @a[tag=resetting] remove hatslime
-tag @a[tag=resetting] remove hattnt
-tag @a[tag=resetting] remove hatscaf
-tag @a[tag=resetting] remove hatbed
-tag @a[tag=resetting] remove hatuni
-tag @a[tag=resetting] remove hatmask
+tag @s remove hatice
+tag @s remove hatslime
+tag @s remove hattnt
+tag @s remove hatscaf
+tag @s remove hatbed
+tag @s remove hatuni
+tag @s remove hatmask
 
-tag @a[tag=resetting] remove DEFish
-tag @a[tag=resetting] remove DEDog
-tag @a[tag=resetting] remove DEHead
-tag @a[tag=resetting] remove DEX
-tag @a[tag=resetting] remove DEPortal
-tag @a[tag=resetting] remove DEGrave
+tag @s remove DEFish
+tag @s remove DEDog
+tag @s remove DEHead
+tag @s remove DEX
+tag @s remove DEPortal
+tag @s remove DEGrave
 
-tag @a[tag=resetting] remove kb_item_dragon
-tag @a[tag=resetting] remove kb_item_bamboo
-tag @a[tag=resetting] remove kb_item_banner
+tag @s remove kb_item_dragon
+tag @s remove kb_item_bamboo
+tag @s remove kb_item_banner
 
-scoreboard players set @a[tag=resetting] LP 0
-scoreboard players set @a[tag=resetting] hat 0
-scoreboard players set @a[tag=resetting] explosion 0
-scoreboard players set @a[tag=resetting] kb_item 0
+scoreboard players set @s LP 0
+scoreboard players set @s hat 0
+scoreboard players set @s explosion 0
+scoreboard players set @s kb_item 0
 
 
 
-tag @a[tag=resetting] remove test
-tag @a[tag=resetting] remove help
-tag @a[tag=resetting] remove bld
-tag @a[tag=resetting] remove srbld
-tag @a[tag=resetting] remove prg
-tag @a[tag=resetting] remove srprg
-tag @a[tag=resetting] remove lead
 
-tag @a add player
-tag HippehWizard add srbld
-tag TheRangerMark add help
-tag SmallDeemo add help
-tag Captain_Deadpool add bld
-tag Bodi25 add help
-tag Nxmes add test
-tag GoldSlimeling91 add help
-tag TheRegularMex add bld
-tag TheTypicalMex add help
-tag FalconReign add lead
-tag physa add test
-tag Wickershim add test
-tag RosaPoo add test
-tag II_Owen_II add help
-tag physa add help
-tag CookieJarPanda add help
-tag GeneralGuy64 add test
-tag WilfrErick add test
-tag CheeseUnused add test
-tag CornerHard add test
-tag CheckInVR add test
-tag ChipChase add test
-tag J70 add test
-tag Calverin add test
-tag ManIntoWolf add test
-tag BlenderEnder add test
-tag MrZmiley add test
-tag Arrgs add test
-tag Moesh add test
+execute if entity @s[tag=has_cr] run scoreboard players set @s prefix 99
+execute if entity @s[tag=has_test] run scoreboard players set @s prefix 0
+execute if entity @s[tag=has_help] run scoreboard players set @s prefix 1
+execute if entity @s[tag=has_bld] run scoreboard players set @s prefix 2
+execute if entity @s[tag=has_prg] run scoreboard players set @s prefix 4
+execute if entity @s[tag=has_art] run scoreboard players set @s prefix 8
+execute if entity @s[tag=has_srbld] run scoreboard players set @s prefix 3
+execute if entity @s[tag=has_srprg] run scoreboard players set @s prefix 5
 
-tag @a[tag=resetting] remove epic
-team join lobby @a[tag=lobby,team=!redlobby,team=!bluelobby,tag=resetting]
-team join test @a[tag=lobby,tag=test,team=!redlobby,team=!bluelobby,tag=resetting]
-team join help @a[tag=lobby,tag=help,team=!redlobby,team=!bluelobby,tag=resetting]
-team join bld @a[tag=lobby,tag=bld,team=!redlobby,team=!bluelobby,tag=resetting]
-team join srbld @a[tag=lobby,tag=srbld,team=!redlobby,team=!bluelobby,tag=resetting]
-team join prg @a[tag=lobby,tag=prg,team=!redlobby,team=!bluelobby,tag=resetting]
-team join srprg @a[tag=lobby,tag=srprg,team=!redlobby,team=!bluelobby,tag=resetting]
-team join lead @a[tag=lobby,tag=lead,team=!redlobby,team=!bluelobby,tag=resetting]
 
-advancement revoke @a[tag=resetting] everything
 
-tag @a[tag=resetting] remove fakeplayer
-tag @a[tag=resetting] remove noend
+execute if entity @s[tag=has_manager] run scoreboard players set @s prefix 6
+execute if entity @s[tag=has_lead] run scoreboard players set @s prefix 7
 
-tag @a remove resetting
-scoreboard players add @a resetting 1
+
+function active:ranks
+
+function active:rank
+
+advancement revoke @s everything
+
+tag @s remove fakeplayer
+tag @s remove noend
+
+tag @s remove resetting
+scoreboard players add @s resetting 1
 

@@ -8,3 +8,4 @@ execute if score round round matches 2 if score map map matches 7 run clone 1099
 execute if score round round matches 2 if score map map matches 8 run clone 3990 57 -10 4006 59 6 3990 63 -10
 execute if score round round matches 2 if score map map matches 10 run clone 5981 57 -19 6015 59 15 5981 63 -19
 execute if score round round matches 2 if score map map matches 9 run clone 12990 57 -10 13006 59 6 12990 63 -10
+execute if score round round matches 2 run function game:check_obstacles

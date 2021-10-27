@@ -24,11 +24,12 @@ execute if entity @a[tag=lobby] run function cosmetics:lp
 scoreboard players add @a[tag=lobby] LP 0
 effect give @a[tag=lobby] resistance 1 255 true
 execute if entity @a[x=0,y=66,z=0,distance=..150] run function chestmenu:clears
-execute if entity @a[x=0,y=66,z=0,distance=..400] run summon falling_block -4 67.4 63 {Time:1,Tags:["fakeslab"],NoGravity:1,BlockState:{Name:"minecraft:stripped_dark_oak_log",Count:1}}
-execute if entity @a[x=0,y=66,z=0,distance=..400] run summon falling_block -2 67.4 61 {Time:1,Tags:["fakeslab"],NoGravity:1,BlockState:{Name:"minecraft:stripped_dark_oak_log",Count:1}}
+execute if entity @a[x=0,y=66,z=0,distance=..400] run summon falling_block -4 67.4 63 {Time:590,NoGravity:1,BlockState:{Name:"minecraft:stripped_dark_oak_log"},DropItem:0b}
+execute if entity @a[x=0,y=66,z=0,distance=..400] run summon falling_block -2 67.4 61 {Time:590,NoGravity:1,BlockState:{Name:"minecraft:stripped_dark_oak_log"},DropItem:0b}
+
 effect give @a[x=0,y=66,z=0,distance=..400,gamemode=adventure] weakness 1 255 true
 execute if entity @a[x=0,y=66,z=0,distance=..400] run function models:models
-kill @e[type=falling_block,tag=fakeslab]
+
 execute at @e[tag=options_model,type=area_effect_cloud] as @e[type=item,distance=..0.5] run data merge entity @s {PickupDelay:1000,Age:-13635}
 execute if score $time mode_cooldown matches 1.. run function options:mode_cooldown
 

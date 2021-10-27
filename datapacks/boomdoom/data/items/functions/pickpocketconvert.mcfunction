@@ -41,42 +41,42 @@ kill @e[type=item,tag=pick,nbt={Item:{id:"minecraft:blue_concrete"}}]
 kill @e[type=item,tag=pick,nbt={Item:{id:"minecraft:iron_sword"}}]
 kill @e[type=item,tag=pick,nbt={Item:{id:"minecraft:arrow"}}]
 tag @e[tag=pick,sort=random,limit=1] add picked
-execute if entity @e[tag=slot1,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.1 air
-execute if entity @e[tag=slot2,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.2 air
-execute if entity @e[tag=slot3,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.3 air
-execute if entity @e[tag=slot4,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.4 air
-execute if entity @e[tag=slot5,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.5 air
-execute if entity @e[tag=slot6,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.6 air
-execute if entity @e[tag=slot7,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.7 air
-execute if entity @e[tag=slot8,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] hotbar.8 air
-execute if entity @e[tag=slot9,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.0 air
-execute if entity @e[tag=slot10,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.1 air
-execute if entity @e[tag=slot11,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.2 air
-execute if entity @e[tag=slot12,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.3 air
-execute if entity @e[tag=slot13,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.4 air
-execute if entity @e[tag=slot14,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.5 air
-execute if entity @e[tag=slot15,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.6 air
-execute if entity @e[tag=slot16,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.7 air
-execute if entity @e[tag=slot17,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.8 air
-execute if entity @e[tag=slot18,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.9 air
-execute if entity @e[tag=slot19,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.10 air
-execute if entity @e[tag=slot20,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.11 air
-execute if entity @e[tag=slot21,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.12 air
-execute if entity @e[tag=slot22,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.13 air
-execute if entity @e[tag=slot23,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.14 air
-execute if entity @e[tag=slot24,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.15 air
-execute if entity @e[tag=slot25,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.16 air
-execute if entity @e[tag=slot26,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.17 air
-execute if entity @e[tag=slot27,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.18 air
-execute if entity @e[tag=slot28,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.19 air
-execute if entity @e[tag=slot29,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.20 air
-execute if entity @e[tag=slot30,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.21 air
-execute if entity @e[tag=slot31,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.22 air
-execute if entity @e[tag=slot32,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.23 air
-execute if entity @e[tag=slot33,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.24 air
-execute if entity @e[tag=slot34,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.25 air
-execute if entity @e[tag=slot35,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] inventory.26 air
-execute if entity @e[tag=slot-106,tag=picked] run replaceitem entity @a[tag=pocketed,sort=random,limit=1] weapon.offhand air
+execute if entity @e[tag=slot1,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.1 with air
+execute if entity @e[tag=slot2,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.2 with air
+execute if entity @e[tag=slot3,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.3 with air
+execute if entity @e[tag=slot4,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.4 with air
+execute if entity @e[tag=slot5,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.5 with air
+execute if entity @e[tag=slot6,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.6 with air
+execute if entity @e[tag=slot7,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.7 with air
+execute if entity @e[tag=slot8,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] hotbar.8 with air
+execute if entity @e[tag=slot9,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.0 with air
+execute if entity @e[tag=slot10,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.1 with air
+execute if entity @e[tag=slot11,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.2 with air
+execute if entity @e[tag=slot12,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.3 with air
+execute if entity @e[tag=slot13,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.4 with air
+execute if entity @e[tag=slot14,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.5 with air
+execute if entity @e[tag=slot15,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.6 with air
+execute if entity @e[tag=slot16,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.7 with air
+execute if entity @e[tag=slot17,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.8 with air
+execute if entity @e[tag=slot18,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.9 with air
+execute if entity @e[tag=slot19,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.10 with air
+execute if entity @e[tag=slot20,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.11 with air
+execute if entity @e[tag=slot21,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.12 with air
+execute if entity @e[tag=slot22,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.13 with air
+execute if entity @e[tag=slot23,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.14 with air
+execute if entity @e[tag=slot24,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.15 with air
+execute if entity @e[tag=slot25,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.16 with air
+execute if entity @e[tag=slot26,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.17 with air
+execute if entity @e[tag=slot27,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.18 with air
+execute if entity @e[tag=slot28,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.19 with air
+execute if entity @e[tag=slot29,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.20 with air
+execute if entity @e[tag=slot30,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.21 with air
+execute if entity @e[tag=slot31,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.22 with air
+execute if entity @e[tag=slot32,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.23 with air
+execute if entity @e[tag=slot33,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.24 with air
+execute if entity @e[tag=slot34,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.25 with air
+execute if entity @e[tag=slot35,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.26 with air
+execute if entity @e[tag=slot-106,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] weapon.offhand with air
 kill @e[tag=pick,tag=!picked]
 execute if entity @a[tag=pocketed] run advancement grant @a[tag=pickpocket,tag=playing] only minecraft:custom/use_pickpocket
 execute as @e[tag=picked] at @s run tp @s @p[tag=pickpocket,gamemode=!spectator]

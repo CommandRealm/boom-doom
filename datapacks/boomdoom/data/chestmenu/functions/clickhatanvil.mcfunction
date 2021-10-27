@@ -6,5 +6,5 @@ execute as @a[scores={clickhatanvil=1}] at @s run scoreboard players set @s hat 
 execute as @a[scores={clickhatanvil=1}] at @s run scoreboard players set @s button 5
 function chestmenu:clicklhelmet3
 execute as @a[scores={clickhatanvil=1}] at @s run playsound minecraft:ui.button.click master @s[tag=!no_click_sound]
-replaceitem entity @s armor.head air 
+item replace entity @s armor.head with air 
 scoreboard players set @a[scores={clickhatanvil=1}] clickhatanvil 0

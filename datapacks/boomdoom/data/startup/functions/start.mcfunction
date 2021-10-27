@@ -19,6 +19,7 @@ execute if score map map matches 7 run clone 10990 57 -10 11006 59 6 10990 63 -1
 execute if score map map matches 8 run clone 3990 57 -10 4006 59 6 3990 63 -10
 execute if score map map matches 10 run clone 5981 57 -19 6015 59 15 5981 63 -19
 execute if score map map matches 9 run clone 12990 57 -10 13006 59 6 12990 63 -10
+function game:check_obstacles
 tag @a remove pickpocket
 tag @a remove pocketed
 tag @a[scores={ready=1}] add playing
@@ -88,6 +89,247 @@ tag @a remove tpnow
 tag @r[tag=randomtp] add tpnow
 execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~
 tag @a[tag=tpnow] remove randomtp
+
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-3 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~-3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~
+tag @a[tag=tpnow] remove randomtp
+
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-3 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~-3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~
+tag @a[tag=tpnow] remove randomtp
+
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-3 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~-3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~
+tag @a[tag=tpnow] remove randomtp
+
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-3 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~-3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~
+tag @a[tag=tpnow] remove randomtp
+
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-3 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~-3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~-1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~-1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~3 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~1
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~2
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~2 ~ ~3
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~1 ~ ~
+tag @a[tag=tpnow] remove randomtp
+tag @a remove tpnow
+tag @r[tag=randomtp] add tpnow
+execute as @r[tag=randomtp,tag=playing,tag=tpnow] at @s run tp @s ~ ~ ~
+tag @a[tag=tpnow] remove randomtp
+
 tag @a remove tpnow
 function end:reset
 scoreboard players set round round 0
@@ -115,9 +357,9 @@ kill @e[type=item,nbt={Item:{id:"minecraft:chest"}},tag=!unusable,tag=!showdetai
 gamemode adventure @a[gamemode=!adventure,tag=playing]
 scoreboard objectives setdisplay list health
 scoreboard players set @a[scores={brokensword=1..}] brokensword 0
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace anvil
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace chipped_anvil
-execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace damaged_anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace chipped_anvil
+execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace damaged_anvil
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace lava
 scoreboard players reset @a hesdamage
 execute unless entity @e[tag=mobspawn,name=!SpawnpointVillager] run scoreboard players set tnt model 1
@@ -145,6 +387,10 @@ execute as @a[tag=lobby] at @s if block ~ ~-2 ~ wet_sponge run tp @s 8 66 10 0 0
 execute as @a[tag=lobby] at @s if block ~ ~-3 ~ wet_sponge run tp @s 8 66 10 0 0
 scoreboard players reset @a pickup_shears
 scoreboard players reset @a drop_netherite
+scoreboard players reset @a drop_snow_block
+scoreboard players reset @a drop_whirlpool
+scoreboard players reset @a drop_ender_eye
+scoreboard players reset @a drop_stone_brick
 team modify game friendlyFire false
 team modify teamgame friendlyFire false
 advancement grant @a[tag=playing] only minecraft:custom/play_game
@@ -153,3 +399,5 @@ scoreboard players set @a damage 0
 scoreboard players reset @a shear
 
 scoreboard players reset @a[tag=playing] intro_text
+
+gamerule doWeatherCycle false
