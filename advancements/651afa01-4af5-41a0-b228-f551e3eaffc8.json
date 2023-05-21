@@ -1,15 +1,69 @@
 {
-  "minecraft:recipes/misc/book": {
+  "minecraft:24/root": {
     "criteria": {
-      "has_the_recipe": "2020-02-15 09:23:48 +0000"
+      "tick": "2023-02-25 20:33:01 -0500"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:custom/visit_cr": {
     "criteria": {
-      "minecraft:swamp": "2020-02-23 00:06:20 +0000"
+      "impossible": "2023-02-25 20:38:42 -0500"
     },
-    "done": false
+    "done": true
   },
-  "DataVersion": 2230
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 20:34:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 20:35:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_snowman": {
+    "criteria": {
+      "impossible": "2023-02-25 20:38:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_nether": {
+    "criteria": {
+      "impossible": "2023-02-25 21:08:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 20:33:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game_tier_2": {
+    "criteria": {
+      "impossible": "2023-02-25 21:07:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game": {
+    "criteria": {
+      "impossible": "2023-02-25 21:07:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game_tier_3": {
+    "criteria": {
+      "impossible": "2023-02-25 21:53:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/sit_in_tractor": {
+    "criteria": {
+      "impossible": "2023-02-25 21:54:09 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
 }

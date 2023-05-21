@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:gold_block"},"title":{"text":"24 Hour Completionist","color":"gold","bold":true},"show_toast":true,"announce_to_chat":true,"description":{"text":"Complete Boom Doom 24.","color":"gray","bold":false}},"parent":"24/root","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,8 @@
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 3994 66 -8 3992 66 -8 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 3992 66 -7 3992 66 -6 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 3992 66 2 3992 66 4 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 3993 66 4 3994 66 4 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 4002 66 4 4004 66 4 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 4004 66 3 4004 66 2 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 4004 66 -6 4004 66 -8 snow[layers=2]
+execute if score $obstacles settings matches 1 if score map map matches 8 run fill 4003 66 -8 4002 66 -8 snow[layers=2]

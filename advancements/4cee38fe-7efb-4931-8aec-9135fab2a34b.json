@@ -1,0 +1,51 @@
+{
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-25 20:21:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 20:32:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 20:36:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_damage": {
+    "criteria": {
+      "impossible": "2023-02-25 21:40:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game_tier_2": {
+    "criteria": {
+      "impossible": "2023-02-25 21:01:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game": {
+    "criteria": {
+      "impossible": "2023-02-25 21:01:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 20:21:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-25 21:07:23 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

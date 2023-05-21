@@ -22,7 +22,8 @@ kill @e[type=item,nbt={Item:{id:"minecraft:blue_carpet"}},tag=!unusable]
 effect clear @a[scores={totem=1..}] regeneration
 scoreboard players set @a totem 0
 execute unless score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,tag:{kb_item:1}}]}] run function game:get_stick
-execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,tag:{kb_item:2}}]}] run function game:get_sword
+execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,id:"minecraft:iron_sword",tag:{kb_item:1}}]}] run function game:get_sword
+execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:1b,tag:{kb_item:1}}]}] run function game:get_stick_slot_2
 execute as @a[tag=playing,gamemode=!spectator] at @s positioned ~ ~1 ~ as @e[type=item,distance=..1] unless entity @s[tag=notele] unless entity @s[tag=unusable] unless entity @s[type=item,nbt={Item:{id:"minecraft:chest"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:gunpowder"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:cobweb"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:tnt"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:stone_pressure_plate"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:anvil"}}] unless entity @s[type=item,nbt={Item:{tag:{poison:1}}}] run tag @s add tp2player
 execute as @e[tag=tp2player] at @s run data merge entity @s {PickupDelay:0}
 execute as @e[tag=tp2player] at @s run tp @s @p[tag=playing,gamemode=!spectator]
@@ -109,7 +110,8 @@ execute if entity @e[tag=getitemid] run function game:itemid
 function game:tpdown
 execute if entity @e[tag=enhance] run function game:enhance
 tag @e[type=arrow] add die
-execute if entity @e[tag=enhancedchicken] run function game:chicken
+execute if entity @e[type=chicken,tag=enhancedchicken] run function game:chicken
+execute if entity @e[type=chicken,tag=crazy_egg_chicken] run function game:crazy_egg_chicken
 execute as @e[type=zombified_piglin,nbt={HurtTime:10s}] at @s run function game:zombified_piglin/duplicate
 execute if entity @e[tag=inv20] run function game:inv
 execute if entity @e[scores={invulnerability=0..}] unless entity @e[tag=inv20] run function game:inv
@@ -121,8 +123,8 @@ tp @a[tag=playing,x=8,y=66,z=10,distance=..10] @r[tag=playing,distance=10..]
 execute if score mode mode matches 2 run scoreboard players reset @a wins
 execute as @e[type=piglin,tag=duplicatable,nbt={HurtTime:10s}] at @s run function game:piglin/duplicate
 execute if entity @e[type=fox,tag=enhanced] run function game:snow_fox/main
-execute as @a[tag=playing,gamemode=adventure] at @s if block ~ ~-1 ~ ice run effect give @s speed 1 0
-execute as @a[tag=playing,gamemode=adventure] at @s if block ~ ~-1 ~ blue_ice run effect give @s speed 1 4
+execute as @a[tag=playing,gamemode=adventure] at @s if block ~ ~-1 ~ ice run effect give @s speed 1 5
+execute as @a[tag=playing,gamemode=adventure] at @s if block ~ ~-1 ~ blue_ice run effect give @s speed 1 19
 execute as @a[tag=playing,gamemode=adventure] at @s if block ~ ~ ~ snow run effect give @s slowness 1 3 true
 effect give @a[tag=playing,gamemode=adventure,nbt={Inventory:[{id:"minecraft:warped_fungus",tag:{poison:1}}]}] poison 1 4
 execute if entity @e[type=item,nbt={Item:{id:"minecraft:warped_fungus"}}] run function game:illusioner/warped_fungus

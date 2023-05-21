@@ -76,3 +76,57 @@ tag @s remove noend
 tag @s remove resetting
 scoreboard players add @s resetting 1
 
+
+
+# 24 players
+
+
+advancement grant Quackleb only 24/complete
+advancement grant 3letters_ only 24/complete
+advancement grant Connop only 24/complete
+advancement grant blunkaccino only 24/complete
+advancement grant Pilllager only 24/complete
+advancement grant FalconReign only 24/complete
+
+advancement grant Quackleb only 24/root
+advancement grant 3letters_ only 24/root
+advancement grant Connop only 24/root
+advancement grant blunkaccino only 24/root
+advancement grant Pilllager only 24/root
+advancement grant FalconReign only 24/root
+
+
+advancement grant dio_yeeto only 24/root
+advancement grant 4953makcim only 24/root
+advancement grant Svelout_ only 24/root
+advancement grant RinkoBink only 24/root
+advancement grant SuperSchaf16 only 24/root
+advancement grant SmallDeemo only 24/root
+advancement grant 4ChunksofGaming only 24/root
+advancement grant CreeperKiller2_O only 24/root
+advancement grant Captonium only 24/root
+advancement grant TheRegularMex only 24/root
+advancement grant joelzoboyo only 24/root
+advancement grant Sigapple only 24/root
+advancement grant Mefil_Crafting only 24/root
+advancement grant KitchenBurnout only 24/root
+advancement grant YourLittleKnight only 24/root
+advancement grant TheTypicalMex only 24/root
+advancement grant TheTurtleDan only 24/root
+advancement grant Mouese only 24/root
+advancement grant TannerKnight317 only 24/root
+advancement grant _VinRer_ only 24/root
+advancement grant TheRangerMark only 24/root
+advancement grant ArwenOC only 24/root
+advancement grant Calverin only 24/root
+advancement grant CragDyna only 24/root
+advancement grant Billignton only 24/root
+advancement grant sodium12 only 24/root
+advancement grant Bodi25 only 24/root
+advancement grant AxolotlJuice only 24/root
+advancement grant E1nar_Neto only 24/root
+advancement grant Focii_ only 24/root
+advancement grant Urgent_Gaming only 24/root
+advancement grant Pelew only 24/root
+advancement grant MagicDucc only 24/root
+advancement grant Roleinet only 24/root

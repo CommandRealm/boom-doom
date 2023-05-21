@@ -18,10 +18,10 @@ execute as @a[nbt={Inventory:[{id:"minecraft:shears"}]}] at @s run function item
 function items:grenade
 function items:rod
 effect clear @a jump_boost
-effect give @a[nbt={ActiveEffects:[{Id:2b,Amplifier:100b}]}] jump_boost 1 250 true
-execute as @a[nbt={ActiveEffects:[{Id:2b,Amplifier:100b}]}] at @s run summon armor_stand ~ ~ ~ {Tags:["die","tpnplayer"],Duration:10000,Small:1,Invulnerable:1,Marker:1,Invisible:1}
+effect give @a[nbt={ActiveEffects:[{Id:2,Amplifier:100b}]}] jump_boost 1 250 true
+execute as @a[nbt={ActiveEffects:[{Id:2,Amplifier:100b}]}] at @s run summon armor_stand ~ ~ ~ {Tags:["die","tpnplayer"],Duration:10000,Small:1,Invulnerable:1,Marker:1,Invisible:1}
 execute as @e[tag=tpnplayer] at @s run tp @s ~ ~ ~ facing entity @p[tag=playing,gamemode=!spectator,distance=1..]
-execute as @a[nbt={ActiveEffects:[{Id:2b,Amplifier:100b}]}] at @s run tp @s @e[tag=tpnplayer,distance=..1,limit=1,sort=nearest]
+execute as @a[nbt={ActiveEffects:[{Id:2,Amplifier:100b}]}] at @s run tp @s @e[tag=tpnplayer,distance=..1,limit=1,sort=nearest]
 execute if entity @e[type=item,nbt={Item:{id:"minecraft:tnt"},OnGround:1b},tag=!unusable] run function items:tnt
 kill @e[tag=tpnplayer]
 execute if entity @e[type=item,nbt={Item:{id:"minecraft:chest"}},tag=!unusable] run function items:pickpocket
@@ -31,9 +31,8 @@ advancement grant @a[tag=playing,gamemode=adventure,nbt={Inventory:[{Slot:102b,i
 
 # new cr showcase items
 
-# avalanche
-execute as @a[scores={drop_snow_block=1..},tag=playing] at @s run function items:avalanche/drop
-execute if entity @e[type=marker,tag=avalanche_point] run function items:avalanche/main
+# crazy egg
+execute if entity @e[type=egg] run function items:crazy_egg/main
 
 # whirlpool
 execute as @a[scores={drop_whirlpool=1..},tag=playing] at @s run function items:whirlpool/drop

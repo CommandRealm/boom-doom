@@ -1,9 +1,21 @@
 {
-  "minecraft:custom/root": {
+  "minecraft:24/root": {
     "criteria": {
-      "tick": "2020-06-24 15:22:49 -0700"
+      "tick": "2023-02-25 19:18:28 -0500"
     },
     "done": true
   },
-  "DataVersion": 2567
+  "minecraft:custom/visit_snowman": {
+    "criteria": {
+      "impossible": "2023-02-26 06:56:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 19:18:28 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
 }

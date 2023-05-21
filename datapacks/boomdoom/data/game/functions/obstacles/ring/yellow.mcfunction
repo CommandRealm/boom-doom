@@ -1,0 +1,1 @@
+fill 4005 65 -9 3991 65 5 minecraft:yellow_stained_glass replace white_stained_glass

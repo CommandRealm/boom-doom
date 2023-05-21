@@ -23,7 +23,8 @@ execute as @e[tag=dog] at @s run particle rain ^ ^.25 ^.2 0 0 0 0 1
 execute if entity @e[tag=DEitem] run function game:deitem
 kill @e[type=item,nbt={Item:{id:"minecraft:stick"}}]
 execute unless score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,tag:{kb_item:1}}]}] run function game:get_stick
-execute if score map map matches 10 run item replace entity @a[tag=playing] hotbar.0 with iron_sword{Enchantments:[{id:"minecraft:knockback",lvl:4}],display:{Name:"{\"text\":\"Sword of the Courtyard\",\"color\":\"gray\",\"italic\":false,\"bold\":true}"},AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attackSpeed", Name:"generic.attackSpeed", Amount:1000, Operation:0, UUIDLeast:894654, UUIDMost:2872},{Slot:"mainhand",AttributeName:"generic.attackDamage",Amount:1,Operration:0,UUIDLeast:89465,UUIDMost:2872}]}
+execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:0b,id:"minecraft:iron_sword",tag:{kb_item:1}}]}] run function game:get_sword
+execute if score map map matches 10 as @a[tag=playing] at @s unless entity @s[nbt={Inventory:[{Slot:1b,tag:{kb_item:1}}]}] run function game:get_stick_slot_2
 execute as @a[tag=playing,gamemode=!spectator] at @s positioned ~ ~1 ~ as @e[type=item,distance=..1] unless entity @s[tag=notele] unless entity @s[tag=unusable] unless entity @s[type=item,nbt={Item:{id:"minecraft:chest"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:cobweb"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:tnt"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:stone_pressure_plate"}}] unless entity @s[type=item,nbt={Item:{id:"minecraft:anvil"}}] run tag @s add tp2player
 execute as @e[tag=tp2player] at @s run data merge entity @s {PickupDelay:0}
 execute as @e[tag=tp2player] at @s run tp @s @p[tag=playing,gamemode=!spectator]

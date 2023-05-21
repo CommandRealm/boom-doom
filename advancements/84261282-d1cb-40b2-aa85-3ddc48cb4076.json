@@ -1,9 +1,21 @@
 {
-  "minecraft:custom/root": {
+  "minecraft:24/root": {
     "criteria": {
-      "tick": "2021-10-18 23:45:49 -0700"
+      "tick": "2023-05-20 21:43:02 -0700"
     },
     "done": true
   },
-  "DataVersion": 2730
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-05-20 21:43:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:24/complete": {
+    "criteria": {
+      "impossible": "2023-05-20 21:43:02 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

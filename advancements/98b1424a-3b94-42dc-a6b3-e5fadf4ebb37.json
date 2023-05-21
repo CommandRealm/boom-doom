@@ -1,0 +1,75 @@
+{
+  "minecraft:custom/fall_in_pit": {
+    "criteria": {
+      "impossible": "2023-02-25 10:02:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-25 09:55:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 09:56:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 09:56:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/complete_tutorial": {
+    "criteria": {
+      "impossible": "2023-02-25 09:56:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/ride_minecart": {
+    "criteria": {
+      "impossible": "2023-02-25 10:02:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_damage": {
+    "criteria": {
+      "impossible": "2023-02-25 10:27:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/equip_armor": {
+    "criteria": {
+      "impossible": "2023-02-25 12:27:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 09:55:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/equip_elytra": {
+    "criteria": {
+      "impossible": "2023-02-25 10:16:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-25 10:25:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/check_out_socials": {
+    "criteria": {
+      "impossible": "2023-02-25 12:22:05 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

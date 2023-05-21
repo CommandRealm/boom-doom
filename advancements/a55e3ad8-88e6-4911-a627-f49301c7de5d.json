@@ -1,0 +1,75 @@
+{
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-25 08:10:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 08:14:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 08:15:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/complete_tutorial": {
+    "criteria": {
+      "impossible": "2023-02-25 22:03:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/step_on_landmine": {
+    "criteria": {
+      "impossible": "2023-02-25 08:32:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/use_book": {
+    "criteria": {
+      "impossible": "2023-02-25 22:23:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/use_pickpocket": {
+    "criteria": {
+      "impossible": "2023-02-25 22:12:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/equip_armor": {
+    "criteria": {
+      "impossible": "2023-02-25 08:14:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/ride_minecart": {
+    "criteria": {
+      "impossible": "2023-02-25 08:19:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_damage": {
+    "criteria": {
+      "impossible": "2023-02-25 08:46:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 08:10:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-25 22:00:03 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

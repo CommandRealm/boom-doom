@@ -65,6 +65,8 @@ tag FalconReign add has_help
 tag II_Owen_II add has_help
 tag physa add has_help
 tag CookieJarPanda add has_help
+tag joelzoboyo add has_help
+tag Calverin add has_help
 
 ##bld
 tag Connop add has_bld

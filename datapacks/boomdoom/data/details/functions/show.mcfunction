@@ -65,7 +65,7 @@ title @a[scores={showdetails=61},tag=lobby,x=0,y=66,z=0,distance=..200] title {"
 title @a[scores={showdetails=62},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Boom Item","color":"red"}
 title @a[scores={showdetails=63},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Goat","color":"gray"}
 title @a[scores={showdetails=64},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Bee","color":"yellow"}
-title @a[scores={showdetails=65},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Avalanche","color":"white"}
+title @a[scores={showdetails=65},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Crazy Egg","color":"yellow"}
 title @a[scores={showdetails=66},tag=lobby,x=0,y=66,z=0,distance=..200] title [{"text":"Jump ","color":"green"},{"text":"Boots","color":"dark_green"}]
 title @a[scores={showdetails=67},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Whirlpool","color":"dark_aqua"}
 title @a[scores={showdetails=68},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Swapper Beam","color":"gold"}

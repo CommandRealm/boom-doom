@@ -86,3 +86,9 @@ scoreboard objectives add equip_boots minecraft.used:minecraft.leather_boots
 scoreboard objectives add jump_boost_timer dummy
 
 gamerule doTileDrops false
+
+# function 24:init
+
+scoreboard objectives add hat_delay dummy
+
+scoreboard objectives add 24_hat_type dummy

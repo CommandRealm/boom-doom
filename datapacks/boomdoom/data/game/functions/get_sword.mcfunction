@@ -1,3 +1,3 @@
-kill @e[type=item,nbt={Item:{tag:{kb_item:2}}}]
+kill @e[type=item,nbt={Item:{tag:{kb_item:1}}}]
 clear @s iron_sword
-item replace entity @a[tag=playing] hotbar.0 with iron_sword{Unbreakable:1b,kb_item:2,Enchantments:[{id:"minecraft:knockback",lvl:4}],display:{Name:"{\"text\":\"Sword of the Courtyard\",\"color\":\"gray\",\"italic\":false,\"bold\":true}"},AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:1000, Operation:0, UUIDLeast:894654, UUIDMost:2872},{Slot:"mainhand",AttributeName:"generic.attack_damage",Amount:1,Operration:0,UUIDLeast:89465,UUIDMost:2872}]}
+item replace entity @a[tag=playing] hotbar.0 with iron_sword{Unbreakable:1b,kb_item:1,Enchantments:[{id:"minecraft:knockback",lvl:4}],display:{Name:"{\"text\":\"Sword of the Courtyard\",\"color\":\"gray\",\"italic\":false,\"bold\":true}"},AttributeModifiers:[{Slot:"mainhand", AttributeName:"generic.attack_speed", Name:"generic.attack_speed", Amount:1000, Operation:0, UUIDLeast:894654, UUIDMost:2872},{Slot:"mainhand",AttributeName:"generic.attack_damage",Amount:1,Operration:0,UUIDLeast:89465,UUIDMost:2872}]}

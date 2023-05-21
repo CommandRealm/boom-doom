@@ -22,6 +22,16 @@ clear @s red_bed{hat:1}
 clear @s end_rod{hat:1}
 clear @s dark_oak_fence_gate{hat:1}
 clear @s golden_helmet{hat:1}
+clear @s light_gray_banner{hat:1}
+
+clear @s red_banner{hat:1}
+clear @s orange_banner{hat:1}
+clear @s yellow_banner{hat:1}
+clear @s lime_banner{hat:1}
+clear @s cyan_banner{hat:1}
+clear @s blue_banner{hat:1}
+clear @s purple_banner{hat:1}
+# item replace entity @s armor.head with glass
 execute as @s[tag=!darmor,scores={hat=1}] run item replace entity @s armor.head with dropper{display:{Name:"{\"text\":\"Dropper Hat\",\"color\":\"green\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}
 item replace entity @s[tag=!darmor,scores={hat=2}] armor.head with anvil{display:{Name:"{\"text\":\"Anvil Hat\",\"color\":\"green\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}
 item replace entity @s[tag=!darmor,scores={hat=3}] armor.head with glass{display:{Name:"{\"text\":\"Glass Hat\",\"color\":\"green\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}
@@ -44,4 +54,11 @@ item replace entity @s[tag=!darmor,scores={hat=18}] armor.head with red_bed{disp
 item replace entity @s[tag=!darmor,scores={hat=19}] armor.head with end_rod{display:{Name:"{\"text\":\"Unicorn Horn\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}
 item replace entity @s[tag=!darmor,scores={hat=20}] armor.head with dark_oak_fence_gate{display:{Name:"{\"text\":\"Mask\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}
 item replace entity @s[tag=!darmor,scores={hat=21}] armor.head with golden_helmet{Unbreakable:1b,display:{Name:"{\"text\":\"Crown\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},HideFlags:63,hat:1,Enchantments:[{id:"x",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I; 10, 10, 10, 10]}]}
+
+execute if entity @s[tag=!darmor,scores={hat=22}] run function cosmetics:24/basic_hat
+execute if entity @s[tag=!darmor,scores={hat=23}] run function cosmetics:24/complete_hat
+item replace entity @s[tag=!darmor,scores={hat=21}] armor.head with golden_helmet{Unbreakable:1b,display:{Name:"{\"text\":\"Crown\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},HideFlags:63,hat:1,Enchantments:[{id:"x",lvl:1}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I; 10, 10, 10, 10]}]}
+
+
+
 kill @e[type=item,nbt={Item:{tag:{display:{Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}}}]
