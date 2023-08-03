@@ -1,0 +1,219 @@
+{
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 07:17:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/complete_tutorial": {
+    "criteria": {
+      "impossible": "2023-02-25 07:13:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_nether": {
+    "criteria": {
+      "impossible": "2023-02-25 07:14:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_healed": {
+    "criteria": {
+      "impossible": "2023-02-25 07:40:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/unlock_kb_item": {
+    "criteria": {
+      "impossible": "2023-02-26 02:44:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/use_book": {
+    "criteria": {
+      "impossible": "2023-02-25 14:46:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/equip_armor": {
+    "criteria": {
+      "impossible": "2023-02-25 07:42:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/unlock_hat": {
+    "criteria": {
+      "impossible": "2023-02-25 14:25:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 07:04:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/unlock_prefix": {
+    "criteria": {
+      "impossible": "2023-02-25 07:16:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_in_pit": {
+    "criteria": {
+      "impossible": "2023-02-25 07:23:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-25 07:04:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/enhancement_scepter": {
+    "criteria": {
+      "impossible": "2023-02-25 18:56:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/pvp_rune": {
+    "criteria": {
+      "impossible": "2023-02-25 18:51:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 07:18:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_snowman": {
+    "criteria": {
+      "impossible": "2023-02-25 07:12:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/kill_horse": {
+    "criteria": {
+      "impossible": "2023-02-25 07:28:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_damage": {
+    "criteria": {
+      "impossible": "2023-02-25 07:19:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game": {
+    "criteria": {
+      "impossible": "2023-02-25 10:34:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/die_in_cobweb": {
+    "criteria": {
+      "impossible": "2023-02-25 07:34:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_cr": {
+    "criteria": {
+      "impossible": "2023-02-25 07:05:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:completionist/completionist": {
+    "criteria": {
+      "impossible": "2023-02-26 02:44:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/ride_strider": {
+    "criteria": {
+      "impossible": "2023-02-25 07:50:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:24/complete": {
+    "criteria": {
+      "impossible": "2023-02-26 07:11:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/check_out_socials": {
+    "criteria": {
+      "impossible": "2023-02-25 07:14:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-25 10:07:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/secret_map": {
+    "criteria": {
+      "impossible": "2023-02-25 07:16:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/unlock_death_effect": {
+    "criteria": {
+      "impossible": "2023-02-25 07:34:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/step_on_landmine": {
+    "criteria": {
+      "impossible": "2023-02-25 07:32:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game_tier_4": {
+    "criteria": {
+      "impossible": "2023-02-25 14:25:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/use_pickpocket": {
+    "criteria": {
+      "impossible": "2023-02-26 02:44:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/ride_minecart": {
+    "criteria": {
+      "impossible": "2023-02-25 08:48:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/equip_elytra": {
+    "criteria": {
+      "impossible": "2023-02-25 08:02:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game_tier_2": {
+    "criteria": {
+      "impossible": "2023-02-25 10:34:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game_tier_3": {
+    "criteria": {
+      "impossible": "2023-02-25 11:13:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/sit_in_tractor": {
+    "criteria": {
+      "impossible": "2023-02-25 07:13:39 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

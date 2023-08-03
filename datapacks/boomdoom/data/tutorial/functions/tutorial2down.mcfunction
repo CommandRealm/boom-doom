@@ -1,0 +1,1 @@
+scoreboard players add @e[tag=tutorial,tag=hitstick] arm1 5

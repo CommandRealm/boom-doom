@@ -1,0 +1,33 @@
+{
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-26 00:55:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-26 00:56:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-26 00:57:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-26 00:55:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-26 01:12:48 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

@@ -1,0 +1,33 @@
+{
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-25 22:08:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 22:16:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 22:16:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 22:08:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/check_out_socials": {
+    "criteria": {
+      "impossible": "2023-02-25 22:09:26 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

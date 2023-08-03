@@ -1,0 +1,123 @@
+{
+  "minecraft:custom/visit_cr": {
+    "criteria": {
+      "impossible": "2023-02-25 11:56:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/play_game": {
+    "criteria": {
+      "impossible": "2023-02-25 11:45:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/ride_strider": {
+    "criteria": {
+      "impossible": "2023-02-25 22:31:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/complete_tutorial": {
+    "criteria": {
+      "impossible": "2023-02-25 11:53:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_nether": {
+    "criteria": {
+      "impossible": "2023-02-25 12:13:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_healed": {
+    "criteria": {
+      "impossible": "2023-02-25 14:05:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/use_book": {
+    "criteria": {
+      "impossible": "2023-02-25 12:50:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/root": {
+    "criteria": {
+      "tick": "2023-02-25 11:44:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/check_out_socials": {
+    "criteria": {
+      "impossible": "2023-02-25 11:50:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-02-25 11:55:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/unlock_prefix": {
+    "criteria": {
+      "impossible": "2023-02-25 12:22:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_in_pit": {
+    "criteria": {
+      "impossible": "2023-02-25 11:48:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:24/root": {
+    "criteria": {
+      "tick": "2023-02-25 11:44:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/secret_map": {
+    "criteria": {
+      "impossible": "2023-02-25 12:22:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/get_killed": {
+    "criteria": {
+      "impossible": "2023-02-25 11:47:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/visit_snowman": {
+    "criteria": {
+      "impossible": "2023-02-25 12:04:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/step_on_landmine": {
+    "criteria": {
+      "impossible": "2023-02-25 12:53:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/fall_damage": {
+    "criteria": {
+      "impossible": "2023-02-25 16:12:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/win_game": {
+    "criteria": {
+      "impossible": "2023-02-25 12:57:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:custom/sit_in_tractor": {
+    "criteria": {
+      "impossible": "2023-02-25 11:54:30 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}
