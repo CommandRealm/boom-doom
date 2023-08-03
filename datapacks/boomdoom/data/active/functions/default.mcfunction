@@ -1,5 +1,5 @@
 setblock -29 59 39 air
-setblock -29 59 39 oak_wall_sign[facing=north]{Text2:"{\"text\":\"restore\",\"color\":\"dark_purple\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\"}}",Text3:"{\"text\":\"default\",\"color\":\"light_purple\",\"bold\":true,\"extra\":[{\"text\":\"\",\"color\":\"dark_red\"}]}",Text4:"{\"text\":\"settings\",\"color\":\"dark_blue\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound minecraft:ui.button.click master @s\"}}",Text1:"{\"text\":\"Click to\",\"color\":\"gold\",\"bold\":true}"} replace
+setblock -29 59 39 oak_wall_sign[facing=north]{front_text:{messages:["{\"text\":\"Click to\",\"color\":\"gold\",\"bold\":true}", "{\"text\":\"restore\",\"color\":\"dark_purple\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"\"}}", "{\"text\":\"default\",\"color\":\"light_purple\",\"bold\":true,\"extra\":[{\"text\":\"\",\"color\":\"dark_red\"}]}", "{\"text\":\"settings\",\"color\":\"dark_blue\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/playsound minecraft:ui.button.click master @s\"}}"]}} replace
 function models:allon
 function itemmodel:allon
 scoreboard players set rounds r2w 3

@@ -1,2 +1,0 @@
-execute as @a[x=-1000,y=66,z=0,distance=..400,nbt={ActiveEffects:[{Id:25}]}] at @s run particle dust 1 1 1 1 ~ ~ ~ 0.15 0.75 0.15 0 5 normal @a[tag=!nolag]
-execute as @a[x=-1000,y=66,z=0,distance=..400,nbt={ActiveEffects:[{Id:25}]}] at @s run particle dust 1 0 0 1 ~ ~ ~ 0.15 0.75 0.15 0 5 normal @a[tag=!nolag]
