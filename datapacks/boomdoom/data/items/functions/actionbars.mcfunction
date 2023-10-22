@@ -15,8 +15,8 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:golden_shovel",tag:{Damage:25}}},
 execute as @a[nbt={SelectedItem:{id:"minecraft:golden_shovel",tag:{Damage:27}}},tag=playing] at @s run title @s actionbar {"text":"Hit any mob to unleash an attack that enhances any mobs nearby. (2 hits remaining.)","color":"yellow"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:golden_shovel",tag:{Damage:29}}},tag=playing] at @s run title @s actionbar {"text":"Hit any mob to unleash an attack that enhances any mobs nearby. (1 hits remaining.)","color":"yellow"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:shield"}},tag=playing] at @s run title @s actionbar {"text":"Use to block damage from the direction you’re facing.","color":"gold"}
-execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{CustomPotionEffects:[{Id:1,Duration:400,Amplifier:2}]}}}] at @s run title @s actionbar {"text":"Use to get a speed boost for 20 seconds.","color":"aqua"}
-execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{CustomPotionEffects:[{Id:2,Duration:100,Amplifier:100},{Id:10,Duration:100,Amplifier:2}]}}}] at @s run title @s actionbar {"text":"Use to freeze and heal players.","color":"gold"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{custom_potion_effects:[{id:"minecraft:speed",duration:400,amplifier:2}]}}}] at @s run title @s actionbar {"text":"Use to get a speed boost for 20 seconds.","color":"aqua"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{custom_potion_effects:[{id:"minecraft:slowness",duration:100,amplifier:100},{id:"minecraft:regeneration",duration:100,amplifier:2}]}}}] at @s run title @s actionbar {"text":"Use to freeze and heal players.","color":"gold"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:tnt"}},tag=playing] at @s run title @s actionbar {"text":"Drop to set nearby mobs' countdowns to 1.5 seconds.","color":"red"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:chest"}},tag=playing] at @s run title @s actionbar {"text":"Drop to steal a nearby player's item.","color":"dark_purple"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:shears"}},tag=playing] at @s run title @s actionbar {"text":"Disarm a mob by attacking them.","color":"gold"}
@@ -25,7 +25,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:bow"}},tag=playing] at @s run tit
 execute as @a[nbt={SelectedItem:{id:"minecraft:elytra"}},tag=playing] at @s run title @s actionbar {"text":"Use to glide around the arena.","color":"#fec2ff"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:fishing_rod"}},tag=playing] at @s run title @s actionbar {"text":"Use to pull players or mobs.","color":"gold"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:gunpowder"}},tag=playing] at @s run title @s actionbar {"text":"Drop to summon a \"fake item\" that explodes as it touches the ground.","color":"dark_red"}
-execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{slowness_potion:1,CustomPotionEffects:[{Id:2}]}}},tag=playing] at @s run title @s actionbar {"text":"Throw to give your opponents slowness.","color":"gray"}
+execute as @a[nbt={SelectedItem:{id:"minecraft:splash_potion",tag:{slowness_potion:1,custom_potion_effects:[{id:"minecraft:slowness"}]}}},tag=playing] at @s run title @s actionbar {"text":"Throw to give your opponents slowness.","color":"gray"}
 
 execute as @a[nbt={SelectedItem:{id:"minecraft:egg"}},tag=playing] at @s run title @s actionbar {"text":"Throw to summon crazy chickens.","color":"gray"}
 execute as @a[nbt={SelectedItem:{id:"minecraft:leather_boots"}},tag=playing] at @s run title @s actionbar {"text":"Equip to receive jump boost for a short time.","color":"dark_green"}

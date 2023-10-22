@@ -96,7 +96,7 @@ execute as @a[team=!game,team=!teamgame] run scoreboard players reset @s health
 execute as @a[tag=playing] if entity @s[tag=playing,scores={health=0}] run scoreboard players set @s health 20
 execute if score cooldown cooldown matches 0.. run function game:cooldown
 execute as @e[tag=mob] at @s at @s[y=76,distance=..9.9,tag=!notpdown] run teleport @s ~ 66.05 ~
-scoreboard objectives setdisplay belowName health
+scoreboard objectives setdisplay below_name health
 scoreboard players set @e[scores={hurt=1..},type=!zombified_piglin] hurt 0
 scoreboard players add @e[nbt={HurtTime:10s}] hurt 1
 execute if entity @e[type=slime,tag=mob] run function game:slime

@@ -28,7 +28,7 @@ scoreboard players add @a ready 0
 
 scoreboard players set players nplayers 0
 execute as @a run scoreboard players add players nplayers 1
-execute if score game game matches 0 run scoreboard objectives setdisplay belowName gamewins
+execute if score game game matches 0 run scoreboard objectives setdisplay below_name gamewins
 function active:active/random
 execute if score game game matches 0 run gamerule fallDamage false
 execute as @e[tag=spin] at @s run tp @s ~ ~ ~ ~15 ~

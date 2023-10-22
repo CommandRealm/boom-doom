@@ -7,7 +7,7 @@ effect give @e[tag=mob,type=husk] speed 1 1 true
 effect give @a[nbt={RootVehicle:{Entity:{}}},tag=playing] resistance 1 255
 advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}},tag=playing] only minecraft:custom/ride_minecart
 advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}},tag=playing] only minecraft:custom/ride_strider
-execute as @a[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}},tag=playing] at @s unless entity @s[nbt={ActiveEffects:[{Id:10}]}] run effect give @s regeneration 5 0 true
+execute as @a[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}},tag=playing] at @s unless entity @s[nbt={active_effects:[{id:"minecraft:regeneration"}]}] run effect give @s regeneration 5 0 true
 execute if entity @a[nbt={RootVehicle:{Entity:{id:"minecraft:llama"}}},tag=playing] run function items:llama/active_rider
 execute as @e[type=boat,nbt={Passengers:[{Tags:["mob"]}]}] at @s run kill @e[tag=mob,distance=..1.5]
 execute as @e[type=minecart,nbt={Passengers:[{Tags:["mob"]}]}] at @s run kill @e[tag=mob,distance=..1.5]

@@ -85,8 +85,8 @@ execute as @e[tag=picked] at @s run data merge entity @s {PickupDelay:0}
 execute if entity @e[tag=picked] run tellraw @a[tag=pocketed] {"text":"Your item has been stolen!","color":"dark_red"}
 execute as @e[nbt={Item:{id:"minecraft:golden_shovel"}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Herobrine's Enhancement Scepter\",\"bold\":true}"}
 execute as @e[nbt={Item:{id:"minecraft:diamond_sword"}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Knockback Sword\",\"bold\":true}"}
-execute as @e[nbt={Item:{id:"minecraft:splash_potion",tag:{CustomPotionEffects:[{Id:1,Duration:400,Amplifier:2}]}}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Speed Potion\",\"bold\":true}"}
-execute as @e[nbt={Item:{id:"minecraft:splash_potion",tag:{CustomPotionEffects:[{Id:2,Duration:100,Amplifier:100},{Id:10,Duration:100,Amplifier:2}]}}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Bizarre Potion\",\"bold\":true}"}
+execute as @e[nbt={Item:{id:"minecraft:splash_potion",tag:{custom_potion_effects:[{id:"minecraft:speed",duration:400,amplifier:2}]}}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Speed Potion\",\"bold\":true}"}
+execute as @e[nbt={Item:{id:"minecraft:splash_potion",tag:{custom_potion_effects:[{id:"minecraft:slowness",duration:100,amplifier:100},{id:"minecraft:regeneration",duration:100,amplifier:2}]}}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Bizarre Potion\",\"bold\":true}"}
 execute as @e[nbt={Item:{id:"minecraft:snowball"}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Grenade\",\"bold\":true}"}
 execute as @e[nbt={Item:{id:"minecraft:stone_pressure_plate"}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Land Mine\",\"bold\":true}"}
 execute as @e[nbt={Item:{id:"minecraft:anvil"}}] at @s run data merge entity @s {CustomName:"{\"text\":\"Anvil Summon\",\"bold\":true}"}

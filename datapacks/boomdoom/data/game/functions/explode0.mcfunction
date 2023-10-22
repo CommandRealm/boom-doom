@@ -26,7 +26,7 @@ execute as @e[type=!player,tag=hole,scores={explode=0}] at @s run playsound mine
 execute as @e[type=!player,tag=web,scores={explode=0}] at @s run fill ~1 ~ ~1 ~-1 ~ ~-1 air replace cobweb
 execute as @e[type=!player,tag=fire1s,scores={explode=0}] at @s run fill ~ ~ ~ ~ ~ ~ air replace fire
 execute as @e[type=!player,tag=firecloud,scores={explode=0}] at @s run fill ~1 66 ~1 ~-1 66 ~-1 air replace fire
-execute as @e[type=bee,scores={explode=0}] at @s run summon area_effect_cloud ~ ~ ~ {Effects:[{Id:19,Amplifier:0b,Duration:100}],Radius:4.0f,Duration:100,RadiusPerTick:-0.033f}
+execute as @e[type=bee,scores={explode=0}] at @s run summon area_effect_cloud ~ ~ ~ {effects:[{id:"minecraft:poison",amplifier:0b,duration:100}],Radius:4.0f,Duration:100,RadiusPerTick:-0.033f}
 execute as @e[type=!player,scores={explode=0},tag=NE,name=jeb_] at @s run summon sheep ~ ~ ~ {NoGravity:1,Tags:["mob","SE6","ER3","inv20","enhanced"],Silent:1b,Color:14,Rotation:[90.0f,0.0f],Invulnerable:1}
 execute as @e[type=!player,scores={explode=0},tag=NE,name=jeb_] at @s run summon sheep ~ ~ ~ {NoGravity:1,Tags:["mob","SE6","ER3","inv20","enhanced"],Silent:1b,Color:1,Invulnerable:1}
 execute as @e[type=!player,scores={explode=0},tag=NE,name=jeb_] at @s run summon sheep ~ ~ ~ {NoGravity:1,Tags:["mob","SE6","ER3","inv20","enhanced"],Silent:1b,Color:4,Rotation:[90.0f,0.0f],Invulnerable:1}
