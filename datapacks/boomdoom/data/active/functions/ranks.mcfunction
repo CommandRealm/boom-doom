@@ -10,6 +10,41 @@ tag @a remove has_lead
 tag @a remove has_art
 tag @a remove has_cr
 
+# Lol Boom Doom didn't have the CR role until 2024
+tag FalconReign add has_cr
+tag Connop add has_cr
+tag TheRegularMex add has_cr
+tag Captonium add has_cr
+tag TheRangerMark add has_cr
+tag TheTypicalMex add has_cr
+tag Calverin add has_cr
+tag ChipChase add has_cr
+tag CheckMC add has_cr
+tag SmallDeemo add has_cr
+tag Focii_ add has_cr
+tag pcgus add has_cr
+tag Bodi25 add has_cr
+tag EdLePug add has_cr
+tag Bagee add has_cr
+tag BobaFate add has_cr
+tag Mezimo add has_cr
+tag Shullker add has_cr
+tag Pinkessi add has_cr
+tag joelzoboyo add has_cr
+tag Beybwug add has_cr
+tag Coraze add has_cr
+tag oPando add has_cr
+tag vixy_11 add has_cr
+tag pogglin add has_cr
+tag Urgle add has_cr
+tag Billignton add has_cr
+tag Quackleb add has_cr
+tag TheTurtleDan add has_cr
+tag 3letters_ add has_cr
+tag Mouese add has_cr
+tag JaxF2008 add has_cr
+
+tag Pilllager add has_cr
 
 tag @a add player
 
