@@ -393,7 +393,7 @@ scoreboard players reset @a drop_ender_eye
 scoreboard players reset @a drop_stone_brick
 team modify game friendlyFire false
 team modify teamgame friendlyFire false
-advancement grant @a[tag=playing] only minecraft:custom/play_game
+advancement grant @a[tag=playing] only advancements:custom/play_game
 scoreboard players set @a falling 0
 scoreboard players set @a damage 0
 scoreboard players reset @a shear

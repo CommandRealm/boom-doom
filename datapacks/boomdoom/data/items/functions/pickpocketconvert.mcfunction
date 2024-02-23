@@ -78,7 +78,7 @@ execute if entity @e[tag=slot34,tag=picked] run item replace entity @a[tag=pocke
 execute if entity @e[tag=slot35,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] inventory.26 with air
 execute if entity @e[tag=slot-106,tag=picked] run item replace entity @a[tag=pocketed,sort=random,limit=1] weapon.offhand with air
 kill @e[tag=pick,tag=!picked]
-execute if entity @a[tag=pocketed] run advancement grant @a[tag=pickpocket,tag=playing] only minecraft:custom/use_pickpocket
+execute if entity @a[tag=pocketed] run advancement grant @a[tag=pickpocket,tag=playing] only advancements:custom/use_pickpocket
 execute as @e[tag=picked] at @s run tp @s @p[tag=pickpocket,gamemode=!spectator]
 execute as @e[tag=picked] at @s as @p[tag=pocketed] at @s run tp @s ~ 69 ~
 execute as @e[tag=picked] at @s run data merge entity @s {PickupDelay:0}

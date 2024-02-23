@@ -1,1 +1,25 @@
-{"display":{"icon":{"item":"minecraft:iron_block"},"title":{"text":"Here we go!","color":"dark_green","bold":true},"show_toast":true,"announce_to_chat":false,"description":{"text":"Play a game of Boom Doom.","color":"green","bold":false}},"parent": "advancements:custom/root","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {
+            "text": "Here we go!",
+            "color": "dark_green",
+            "bold": true
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "description": {
+            "text": "Play a game of Boom Doom.",
+            "color": "green",
+            "bold": false
+        }
+    },
+    "parent": "advancements:custom/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

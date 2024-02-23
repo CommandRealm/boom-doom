@@ -2,4 +2,4 @@ execute as @a[tag=darmor] at @s unless data entity @s Inventory[{Slot:103b}] run
 execute as @a[tag=darmor] at @s unless data entity @s Inventory[{Slot:102b}] run item replace entity @s armor.chest with diamond_chestplate{HideFlags:63,display:{Name:"{\"text\":\"Chestplate\",\"color\":\"aqua\",\"italic\":false}"},Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 execute as @a[tag=darmor] at @s unless data entity @s Inventory[{Slot:101b}] run item replace entity @s armor.legs with diamond_leggings{HideFlags:63,display:{Name:"{\"text\":\"Leggings\",\"color\":\"aqua\",\"italic\":false}"},Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
 execute as @a[tag=darmor] at @s unless data entity @s Inventory[{Slot:100b}] run item replace entity @s armor.feet with diamond_boots{HideFlags:63,display:{Name:"{\"text\":\"Boots\",\"color\":\"aqua\",\"italic\":false}"},Enchantments:[{id:"minecraft:binding_curse",lvl:1}]}
-advancement grant @a[tag=darmor,advancements={custom/equip_armor=false}] only minecraft:custom/equip_armor
+advancement grant @a[tag=darmor,advancements={advancements:custom/equip_armor=false}] only advancements:custom/equip_armor

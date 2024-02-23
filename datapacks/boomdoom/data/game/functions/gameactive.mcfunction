@@ -132,10 +132,10 @@ execute if entity @e[tag=snowstorm,type=area_effect_cloud] run function game:car
 execute if entity @e[tag=pillager_arrow] run function game:pillager/arrow
 execute as @a[tag=playing,gamemode=adventure,nbt={Inventory:[{id:"minecraft:bow"}]}] at @s unless entity @s[nbt={Inventory:[{Slot:35b,id:"minecraft:arrow"}]}] run function game:get_arrow
 
-execute if entity @a[advancements={custom/fall_damage=false}] run function game:advancements/lf_fall_damage
+execute if entity @a[advancements={advancements:custom/fall_damage=false}] run function game:advancements/lf_fall_damage
 execute as @a[tag=playing,scores={kill_horse=1..}] at @s run function game:advancements/kill_horse
-advancement grant @a[advancements={custom/die_in_cobweb=true,custom/fall_damage=true,custom/fall_in_pit=true,custom/get_killed=true,custom/kill_horse=true,custom/step_on_landmine=true}] only minecraft:custom/unlock_death_effect
-advancement grant @a[advancements={custom/enhancement_scepter=true,custom/equip_armor=true,custom/equip_elytra=true,custom/get_healed=true,custom/pvp_rune=true,custom/ride_minecart=true,custom/ride_strider=true,custom/use_book=true,custom/use_pickpocket=true}] only minecraft:custom/unlock_kb_item
+advancement grant @a[advancements={advancements:custom/die_in_cobweb=true,advancements:custom/fall_damage=true,advancements:custom/fall_in_pit=true,advancements:custom/get_killed=true,advancements:custom/kill_horse=true,advancements:custom/step_on_landmine=true}] only advancements:custom/unlock_death_effect
+advancement grant @a[advancements={advancements:custom/enhancement_scepter=true,advancements:custom/equip_armor=true,advancements:custom/equip_elytra=true,advancements:custom/get_healed=true,advancements:custom/pvp_rune=true,advancements:custom/ride_minecart=true,advancements:custom/ride_strider=true,advancements:custom/use_book=true,advancements:custom/use_pickpocket=true}] only advancements:custom/unlock_kb_item
 execute as @e[type=horse,tag=horse] at @s unless entity @s[nbt={SaddleItem:{id:"minecraft:saddle"}}] run function game:replace_saddle
 execute as @e[type=sheep,tag=mob,nbt={Sheared:1b}] at @s run function items:shear_sheep
 execute as @e[type=horse] at @s unless block ~ ~ ~ air unless block ~ ~ ~ lava unless block ~ ~ ~ fire unless block ~ ~ ~ snow unless block ~ ~ ~ cobweb run function game:tp_horse_out_of_block

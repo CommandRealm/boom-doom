@@ -5,7 +5,7 @@ execute as @e[type=snow_golem,tag=mob,scores={explode=0}] at @s run fill ~ 66 ~ 
 execute if entity @e[type=illusioner,tag=mob,scores={explode=0}] as @e[tag=mob,type=!player,type=!area_effect_cloud,type=!armor_stand] at @s run function game:illusioner/ability
 execute as @e[type=wandering_trader,scores={explode=0}] at @s run function game:wandering_trader/explode
 execute as @e[type=!player,scores={explode=0},tag=onfire] at @s run summon area_effect_cloud ~ ~ ~ {Invisible:1,Marker:1,NoGravity:1,Invulnerable:1,Tags:["die","fire1s","SE6","NE","HN"],Duration:100000}
-execute as @e[scores={explode=0},tag=NE,tag=HP,type=villager] at @s run advancement grant @a[distance=..1.5,tag=playing,gamemode=adventure] only minecraft:custom/get_healed
+execute as @e[scores={explode=0},tag=NE,tag=HP,type=villager] at @s run advancement grant @a[distance=..1.5,tag=playing,gamemode=adventure] only advancements:custom/get_healed
 execute as @e[type=!player,scores={explode=0},tag=NE,tag=HP] at @s run summon minecraft:potion ~ ~ ~ {Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:healing"}}}
 execute as @e[type=!player,scores={explode=0},tag=nausea] at @s run particle falling_dust slime_block ~ ~1 ~ 3.5 3.5 3.5 0 250
 execute as @e[type=!player,scores={explode=0},tag=nausea] at @s run effect give @a[tag=playing,gamemode=!spectator,distance=..6.5] nausea 20 255

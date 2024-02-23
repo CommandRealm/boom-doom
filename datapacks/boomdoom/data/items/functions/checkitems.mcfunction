@@ -27,7 +27,7 @@ kill @e[tag=tpnplayer]
 execute if entity @e[type=item,nbt={Item:{id:"minecraft:chest"}},tag=!unusable] run function items:pickpocket
 execute as @a[scores={drop_netherite=1..},tag=playing] at @s run function items:drop_netherite
 clear @a[tag=playing,gamemode=adventure] elytra{Damage:431}
-advancement grant @a[tag=playing,gamemode=adventure,nbt={Inventory:[{Slot:102b,id:"minecraft:elytra"}]}] only minecraft:custom/equip_elytra
+advancement grant @a[tag=playing,gamemode=adventure,nbt={Inventory:[{Slot:102b,id:"minecraft:elytra"}]}] only advancements:custom/equip_elytra
 
 # new cr showcase items
 

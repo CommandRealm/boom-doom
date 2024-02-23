@@ -32,5 +32,5 @@ execute if score $rand random matches 27 run tellraw @a {"selector":"@s","extra"
 execute if score $rand random matches 28 run tellraw @a {"selector":"@s","extra":[{"text":" left the arena.","color":"white"}]}
 execute if score $rand random matches 29 run tellraw @a {"selector":"@s","extra":[{"text":" took a one-way trip.","color":"white"}]}
 execute if score $rand random matches 30 run tellraw @a {"selector":"@s","extra":[{"text":" couldn't take the pressure.","color":"white"}]}
-advancement grant @s only minecraft:custom/get_killed
+advancement grant @s only advancements:custom/get_killed
 scoreboard players set @s death3 0

@@ -16,7 +16,7 @@ execute as @s[scores={explosion=14,death=1..},tag=playing,gamemode=!spectator,ta
 execute store result entity @e[tag=deadexplosion,sort=random,limit=1] Pos[0] double 0.1 run scoreboard players get @s x
 execute store result entity @e[tag=deadexplosion,sort=random,limit=1] Pos[1] double 0.1 run scoreboard players get @s y
 execute store result entity @e[tag=deadexplosion,sort=random,limit=1] Pos[2] double 0.1 run scoreboard players get @s z
-execute as @e[tag=deadexplosion] at @s if block ~ ~ ~ cobweb run advancement grant @a[tag=playing,tag=runDE,scores={death=1..}] only minecraft:custom/die_in_cobweb
+execute as @e[tag=deadexplosion] at @s if block ~ ~ ~ cobweb run advancement grant @a[tag=playing,tag=runDE,scores={death=1..}] only advancements:custom/die_in_cobweb
 execute as @e[tag=FlowerExplosion] at @s run particle item red_tulip ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]
 execute as @e[tag=FlowerExplosion] at @s run particle item white_tulip ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]
 execute as @e[tag=FlowerExplosion] at @s run particle item lilac ~ ~1 ~ 1 1 1 0.3 100 normal @a[tag=!nolag]

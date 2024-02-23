@@ -13,10 +13,10 @@ schedule function end:anvilsound 5t
 execute if score mode mode matches 1 if score players play matches 2.. if entity @a[tag=playing] run tellraw @a[x=0,y=66,z=0,distance=..400] [{"text":"","color":"gold","bold":true,"extra":[{"selector":"@a[scores={checkwin=0..}]","extra":[{"text":" has won ","color":"gold","bold":true}]}]},{"text":"- ","color":"gray"},{"text":"BOOM","color":"green","bold":true},{"text":" DOOM","color":"dark_green","bold":true},{"text":" -","color":"gray"}]
 execute if score mode mode matches 1 if score players play matches ..1 if entity @a[tag=playing] run tellraw @a[tag=playing] {"text":"Insufficient amount of players to complete the game.","color":"red"}
 scoreboard players add @a[scores={checkwin=0..}] gamewins 1
-advancement grant @a[scores={gamewins=1..}] only minecraft:custom/win_game
-advancement grant @a[scores={gamewins=5..}] only minecraft:custom/win_game_tier_3
-advancement grant @a[scores={gamewins=10..}] only minecraft:custom/win_game_tier_4
-advancement grant @a[advancements={custom/play_game=true,custom/win_game=true,custom/win_game_tier_2=true,custom/win_game_tier_3=true,custom/win_game_tier_4=true}] only minecraft:custom/unlock_hat
+advancement grant @a[scores={gamewins=1..}] only advancements:custom/win_game
+advancement grant @a[scores={gamewins=5..}] only advancements:custom/win_game_tier_3
+advancement grant @a[scores={gamewins=10..}] only advancements:custom/win_game_tier_4
+advancement grant @a[advancements={advancements:custom/play_game=true,advancements:custom/win_game=true,advancements:custom/win_game_tier_2=true,advancements:custom/win_game_tier_3=true,advancements:custom/win_game_tier_4=true}] only advancements:custom/unlock_hat
 tag @a[tag=playing] add percentage
 function end:percentage
 teleport @a[gamemode=spectator] 8 66 10 0 0
