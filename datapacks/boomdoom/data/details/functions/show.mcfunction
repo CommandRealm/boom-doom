@@ -76,9 +76,9 @@ title @a[scores={showdetails=72},tag=lobby,x=0,y=66,z=0,distance=..200] title {"
 
 title @a[scores={showdetails=1..},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Crouch for details","color":"blue"}
 title @a[scores={showdetails=-100},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"Connop","color":"green"}
-title @a[scores={showdetails=-100},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Builder, Co-Producer, and Maker of the Lobby"}
+title @a[scores={showdetails=-100},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Manager, Senior Builder, and Maker of the Lobby"}
 title @a[scores={showdetails=-101},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"FalconReign","color":"green"}
-title @a[scores={showdetails=-101},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Builder, Programmer, and Producer"}
+title @a[scores={showdetails=-101},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Project Lead, Senior Programmer, and Builder"}
 title @a[scores={showdetails=-102},tag=lobby,x=0,y=66,z=0,distance=..200] title {"text":"TheRegularMex","color":"green"}
 title @a[scores={showdetails=-102},tag=lobby,x=0,y=66,z=0,distance=..200] subtitle {"text":"Builder, Helper, and Maker of the Sign"}
 execute if entity @a[scores={showdetails=1..,crouch=1},tag=lobby,x=0,y=66,z=0,distance=..200] run function details:tellraw
