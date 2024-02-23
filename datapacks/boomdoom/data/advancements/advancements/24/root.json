@@ -1,0 +1,58 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {
+            "text": "BOOM ",
+            "color": "red",
+            "bold": true,
+            "extra": [
+                {
+                    "text": "DOOM",
+                    "color": "dark_red",
+                    "extra": [
+                        {
+                            "text": " 24",
+                            "color": "gold",
+                            "bold": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "description": {
+            "text": "By the ",
+            "color": "white",
+            "underlined": false,
+            "extra": [
+                {
+                    "text": "Command",
+                    "color": "aqua",
+                    "bold": true,
+                    "extra": [
+                        {
+                            "text": " Realm",
+                            "color": "dark_aqua",
+                            "extra": [
+                                {
+                                    "text": " Team",
+                                    "bold": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "background": "minecraft:textures/block/deepslate_tiles.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

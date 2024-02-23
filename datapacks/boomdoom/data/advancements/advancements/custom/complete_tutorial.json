@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "title": {
+            "text": "Complete the Tutorial",
+            "color": "aqua",
+            "bold": true
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "description": {
+            "text": "Complete the tutorial in the lobby.",
+            "color": "dark_aqua",
+            "bold": false
+        }
+    },
+    "parent": "advancements:custom/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

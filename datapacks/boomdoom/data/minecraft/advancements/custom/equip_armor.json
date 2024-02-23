@@ -1,1 +1,0 @@
-{"display":{"icon":{"item":"minecraft:diamond_chestplate"},"title":{"text":"Full Diamond?","color":"aqua","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Equip diamond armor.","color":"dark_aqua","bold":false}},"parent":"custom/ride_minecart","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

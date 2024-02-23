@@ -1,1 +1,0 @@
-{"display":{"icon":{"item":"minecraft:stone_pressure_plate"},"title":{"text":"Boom!","color":"dark_red","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Walk onto a land mine.","color":"red","bold":false}},"parent":"custom/die_in_cobweb","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

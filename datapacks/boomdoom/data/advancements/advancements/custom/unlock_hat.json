@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:golden_helmet"},"title":{"text":"Exclusive Hat","color":"#ffa800","bold":true},"show_toast":true,"announce_to_chat":false,"description":{"text":"Complete all advancements within this row to unlock.","color":"yellow","bold":false}},"parent": "advancements:custom/win_game_tier_4","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

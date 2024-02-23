@@ -1,1 +1,0 @@
-{"display":{"icon":{"item":"minecraft:chest"},"title":{"text":"Hands To Yourself","color":"dark_purple","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Steal someone's item.","color":"light_purple","bold":false}},"parent":"custom/equip_elytra","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

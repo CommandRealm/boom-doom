@@ -1,1 +1,0 @@
-{"display":{"icon":{"item":"minecraft:book"},"title":{"text":"How Relaxing!","color":"dark_green","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Take a relaxing break in spectator mode using the Get A Better View book.","color":"green","bold":false}},"parent":"custom/equip_armor","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

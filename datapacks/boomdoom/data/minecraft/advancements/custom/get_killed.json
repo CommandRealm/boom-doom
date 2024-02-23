@@ -1,1 +1,0 @@
-{"display":{"icon":{"item":"minecraft:skeleton_skull"},"title":{"text":"First Death","color":"dark_gray","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"The first of many.","color":"gray","bold":false}},"parent":"custom/root","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

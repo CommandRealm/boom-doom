@@ -1,1 +1,0 @@
-{"display":{"icon":{"item":"minecraft:crimson_nylium"},"title":{"text":"I made it!","color":"#ff000c","bold":true},"show_toast":true,"announce_to_chat":"false","description":{"text":"Visit the nether portal in the lobby.","color":"red","bold":false}},"parent":"custom/sit_in_tractor","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:golden_pickaxe"},"title":{"text":"Exclusive KB Item","color":"#5d471c","bold":true},"show_toast":true,"announce_to_chat":false,"description":{"text":"Complete all advancements within this row to unlock.","color":"dark_red","bold":false}},"parent": "advancements:custom/pvp_rune","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}

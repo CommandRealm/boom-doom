@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:lapis_block"},"title":{"text":"Winner! (Tier 2)","color":"dark_blue","bold":true},"show_toast":true,"announce_to_chat":false,"description":{"text":"Win a team match of Boom Doom.","color":"blue","bold":false}},"parent": "advancements:custom/win_game","criteria":{"impossible":{"trigger":"minecraft:impossible"}}}
