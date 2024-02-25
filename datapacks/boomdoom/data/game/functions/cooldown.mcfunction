@@ -21,7 +21,7 @@ execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~ ~-6 air replace fire
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace anvil
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace chipped_anvil
 execute at @e[tag=spawner] run fill ~6 ~ ~6 ~-6 ~6 ~-6 air replace damaged_anvil
-scoreboard players set round -2
+#scoreboard players set round -2
 
 execute if score mode mode matches 2 run scoreboard players reset @a wins
 scoreboard players reset @a[team=!game,team=!teamgame] hearts
