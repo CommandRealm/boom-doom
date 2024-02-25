@@ -3,8 +3,8 @@ execute if entity @a[tag=lobby] run function active:lobby
 kill @e[type=tnt]
 execute as @e[type=item,x=7,y=68,z=6,distance=..10] unless entity @s[type=item,nbt={Item:{tag:{TeamSwap:1}}}] unless entity @s[tag=killdiamond] run kill @s
 execute as @a[scores={hat=0..,button=6},tag=!darmor] at @s unless entity @s[nbt={Inventory:[{Slot:103b,tag:{hat:1}}]}] run function cosmetics:hat
-execute as @a[scores={hat=23}] at @s run function cosmetics:advancements:24/active_24_hat
-# execute as @a[scores={hat=22}] at @s run function cosmetics:advancements:24/active_basic_hat
+execute as @a[scores={hat=23}] at @s run function cosmetics:24/active_24_hat
+# execute as @a[scores={hat=22}] at @s run function cosmetics:24/active_basic_hat
 execute if entity @a[scores={button=5..}] run function cosmetics:button
 execute as @a[scores={death3=1..}] at @s run function active:active/deathmsg
 

@@ -55,8 +55,8 @@ item replace entity @s[tag=!darmor,scores={hat=19}] armor.head with end_rod{disp
 item replace entity @s[tag=!darmor,scores={hat=20}] armor.head with dark_oak_fence_gate{display:{Name:"{\"text\":\"Mask\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},hat:1}
 item replace entity @s[tag=!darmor,scores={hat=21}] armor.head with golden_helmet{Unbreakable:1b,display:{Name:"{\"text\":\"Crown\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},HideFlags:63,hat:1,Enchantments:[{}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I; 10, 10, 10, 10]}]}
 
-execute if entity @s[tag=!darmor,scores={hat=22}] run function cosmetics:advancements:24/basic_hat
-execute if entity @s[tag=!darmor,scores={hat=23}] run function cosmetics:advancements:24/complete_hat
+execute if entity @s[tag=!darmor,scores={hat=22}] run function cosmetics:24/basic_hat
+execute if entity @s[tag=!darmor,scores={hat=23}] run function cosmetics:24/complete_hat
 item replace entity @s[tag=!darmor,scores={hat=21}] armor.head with golden_helmet{Unbreakable:1b,display:{Name:"{\"text\":\"Crown\",\"color\":\"yellow\",\"italic\":false}",Lore:["{\"text\":\"Hat\",\"color\":\"red\",\"italic\":false,\"bold\":true}"]},HideFlags:63,hat:1,Enchantments:[{}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:0,Operation:0,UUID:[I; 10, 10, 10, 10]}]}
 
 
